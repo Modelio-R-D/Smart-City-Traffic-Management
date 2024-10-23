@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Behavior" version="4">
+  <OBJECT>
+    <ID name="Behavior" mc="Infrastructure.Stereotype" uid="a993fdfc-bb89-477d-99fe-2a4b3bc43f27"/>
+    <PID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Behavior.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.StateMachine]]></ATT>
+      <ATT name="Name"><![CDATA[Behavior]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

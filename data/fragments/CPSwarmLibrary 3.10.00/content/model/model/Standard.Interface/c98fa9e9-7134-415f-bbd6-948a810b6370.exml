@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MoveBase" version="4">
+  <OBJECT>
+    <ID name="MoveBase" mc="Standard.Interface" uid="c98fa9e9-7134-415f-bbd6-948a810b6370"/>
+    <PID name="move_base_msgs" mc="Standard.Package" uid="8f5d1494-33c3-4b7a-be7e-ddae3140b046"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MoveBase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSAction" mc="Infrastructure.Stereotype" uid="3331baf8-fec8-4148-ac72-4715a265aa18"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

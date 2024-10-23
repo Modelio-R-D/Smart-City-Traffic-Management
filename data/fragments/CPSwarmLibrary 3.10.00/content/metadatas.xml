@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<ram-component manifest-version="2.0.02" name="CPSwarmLibrary" version="3" release="10" clevel="0" modelioVersion="4.1.00" provider="">
+  <description><![CDATA[]]></description>
+  <dependencies></dependencies>
+  <contributors>
+    <contributor name="CPSwarm" version="3.9.01"/>
+    <contributor name="ModelerModule" version="8.7.10"/>
+    <contributor name="SysMLArchitect" version="3.6.02"/>
+  </contributors>
+  <metamodels>
+    <metamodel name="Infrastructure" version="2.1.03"/>
+    <metamodel name="Standard" version="2.3.00"/>
+  </metamodels>
+  <roots>
+    <root metaclass="Standard.Project" name="CPSwarmLibrary" uuid="0d620dcb-7a6a-456d-a104-6a2328829c61"/>
+  </roots>
+</ram-component>

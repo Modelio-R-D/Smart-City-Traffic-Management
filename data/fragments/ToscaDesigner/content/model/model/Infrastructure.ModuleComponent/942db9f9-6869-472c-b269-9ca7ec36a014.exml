@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ToscaDesigner" version="4">
+  <OBJECT>
+    <ID name="ToscaDesigner" mc="Infrastructure.ModuleComponent" uid="942db9f9-6869-472c-b269-9ca7ec36a014"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"><![CDATA[0]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[fr.softeam.toscadesigner.impl.ToscaDesignerModule]]></ATT>
+      <ATT name="Name"><![CDATA[ToscaDesigner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedPropertyType">
+        <COMPID name="DerivedFromType" mc="Infrastructure.PropertyType" uid="e0e0884f-cd69-4a26-9288-34243d9b17fa"/>
+        <COMPID name="DerivedFromType1" mc="Infrastructure.PropertyType" uid="b828889b-7052-4e46-82c7-6a5720e33bf6"/>
+        <COMPID name="DerivedFromType2" mc="Infrastructure.PropertyType" uid="684c2ed9-f7c2-4c18-83a6-c5767ca1befd"/>
+        <COMPID name="ExcludeType" mc="Infrastructure.PropertyType" uid="c9c7cea5-f885-4256-a0f3-a55829401aab"/>
+        <COMPID name="IncludeType" mc="Infrastructure.PropertyType" uid="93f30ce5-d640-4beb-9ce2-96e93ddd35fb"/>
+        <COMPID name="InstanceStateType" mc="Infrastructure.PropertyType" uid="607b406a-4956-478a-91a2-36f669e0e484"/>
+        <COMPID name="MaxInstancesType" mc="Infrastructure.PropertyType" uid="0432b75e-c8ae-44c4-9361-1b54cd31bf2e"/>
+        <COMPID name="PlanModelReferenceType" mc="Infrastructure.PropertyType" uid="975a4b25-9204-4fa8-8e8a-f210c6e39454"/>
+        <COMPID name="PlanModelType" mc="Infrastructure.PropertyType" uid="436f4053-e610-424f-9cd6-14eb9ba862b3"/>
+        <COMPID name="PlanType" mc="Infrastructure.PropertyType" uid="cfcc1bf0-6497-489e-9835-d53f4da8f1b7"/>
+        <COMPID name="PropertiesType" mc="Infrastructure.PropertyType" uid="54a232af-cb92-453f-aab9-6aa67c0212cf"/>
+        <COMPID name="SourceElementType" mc="Infrastructure.PropertyType" uid="d01dabe6-4313-46dc-bde2-187cd2db4d4e"/>
+        <COMPID name="TargetElementType" mc="Infrastructure.PropertyType" uid="c715be72-156f-4239-b2c8-2f642539a7c6"/>
+      </COMP>
+      <COMP relation="OwnedProfile">
+        <COMPID name="Automatic" mc="Infrastructure.Profile" uid="72c19ac1-0189-4db1-a982-dbaa92e1cfd5"/>
+        <COMPID name="Tosca" mc="Infrastructure.Profile" uid="052601e7-dbd7-42a1-9f15-ca5eaf0707f8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

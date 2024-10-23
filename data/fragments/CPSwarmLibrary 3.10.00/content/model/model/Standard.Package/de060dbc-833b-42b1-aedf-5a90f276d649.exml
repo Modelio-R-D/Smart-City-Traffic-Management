@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="state" version="4">
+  <OBJECT>
+    <ID name="state" mc="Standard.Package" uid="de060dbc-833b-42b1-aedf-5a90f276d649"/>
+    <PID name="mavros" mc="Standard.Package" uid="b9473e86-4fd9-4f09-9f9d-28ffb35db8c0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[state]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Topic" mc="Infrastructure.Stereotype" uid="8029f5c0-1f69-4fc0-abc6-705d4692a835"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

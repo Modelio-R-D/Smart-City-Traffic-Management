@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TakeOff" version="4">
+  <OBJECT>
+    <ID name="TakeOff" mc="Standard.Interface" uid="b84bbe33-6908-4a4e-b4fc-5782e2348e1c"/>
+    <PID name="uav_mavros_takeoff" mc="Standard.Package" uid="c0bcfe06-8bb1-4340-86e8-b7e84e381a6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TakeOff]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="altitude" mc="Standard.Attribute" uid="d36a5eef-b541-4738-82ad-432757cd88c2"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[altitude]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="float64" mc="Standard.DataType" uid="eb201996-4dea-462c-bda7-7c9e7f808196"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="GOAL" mc="Infrastructure.Stereotype" uid="17496ef0-8203-4732-8a12-74a436c1198f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSAction" mc="Infrastructure.Stereotype" uid="3331baf8-fec8-4148-ac72-4715a265aa18"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

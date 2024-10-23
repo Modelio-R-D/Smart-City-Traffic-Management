@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Coverage" version="4">
+  <OBJECT>
+    <ID name="Coverage" mc="Standard.Interface" uid="2bc5a267-ddc9-4f83-9c59-4a7b3a25cab9"/>
+    <PID name="cpswarm_msgs" mc="Standard.Package" uid="929e972c-e458-42e1-9d5e-67423556f597"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Coverage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="target_id" mc="Standard.Attribute" uid="79f43c91-b77f-414d-a99a-b49315a4de0d"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[target_id]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="uint32" mc="Standard.DataType" uid="271d4699-f474-44c1-ac02-6cd3e55b1966"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="RESULT" mc="Infrastructure.Stereotype" uid="de05dfa4-5538-4a5e-b96f-9b2107ea3994"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="target_pose" mc="Standard.Attribute" uid="9a7949f2-0316-4add-810d-b78ef952617a"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[target_pose]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="PoseStamped" mc="Standard.DataType" uid="5e761092-fec9-4399-a5a8-abf78cea61f8"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="RESULT" mc="Infrastructure.Stereotype" uid="de05dfa4-5538-4a5e-b96f-9b2107ea3994"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSAction" mc="Infrastructure.Stereotype" uid="3331baf8-fec8-4148-ac72-4715a265aa18"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

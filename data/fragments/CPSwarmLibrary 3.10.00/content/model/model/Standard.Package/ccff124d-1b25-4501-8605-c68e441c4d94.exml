@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ROS" version="4">
+  <OBJECT>
+    <ID name="ROS" mc="Standard.Package" uid="ccff124d-1b25-4501-8605-c68e441c4d94"/>
+    <PID name="Type" mc="Standard.Package" uid="417cfb27-a52e-42c3-9161-5bd4acb2e429"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ROS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="bridge" mc="Standard.Package" uid="c119a955-4339-459a-8406-dfb434001214"/>
+        <COMPID name="swarmros" mc="Standard.Package" uid="fce02bc3-f7ab-4d58-925c-3f8197494626"/>
+        <COMPID name="cpswarm_msgs" mc="Standard.Package" uid="929e972c-e458-42e1-9d5e-67423556f597"/>
+        <COMPID name="mavros" mc="Standard.Package" uid="b9473e86-4fd9-4f09-9f9d-28ffb35db8c0"/>
+        <COMPID name="sensor_msgs" mc="Standard.Package" uid="290e814e-227c-4566-ab3c-023cd2640688"/>
+        <COMPID name="move_base_msgs" mc="Standard.Package" uid="8f5d1494-33c3-4b7a-be7e-ddae3140b046"/>
+        <COMPID name="mavros_msgs" mc="Standard.Package" uid="e6ee65e4-e6ec-4e97-a346-e109078d2de0"/>
+        <COMPID name="stds_msgs" mc="Standard.Package" uid="bf7052f7-f80c-454b-a355-04846dad9d57"/>
+        <COMPID name="pos_provider" mc="Standard.Package" uid="ec8f8292-7b39-47b1-9c29-7c89c8ff9475"/>
+        <COMPID name="geometry_msgs" mc="Standard.Package" uid="4ddaae52-9072-435d-a1ea-6cad98a5ea6a"/>
+        <COMPID name="uav_mavros_takeoff" mc="Standard.Package" uid="c0bcfe06-8bb1-4340-86e8-b7e84e381a6d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

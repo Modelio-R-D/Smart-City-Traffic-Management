@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SimpleEvent" version="4">
+  <OBJECT>
+    <ID name="SimpleEvent" mc="Standard.DataType" uid="5a1512e0-2bef-49d9-a932-11328ce4822b"/>
+    <PID name="swarmros" mc="Standard.Package" uid="fce02bc3-f7ab-4d58-925c-3f8197494626"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SimpleEvent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Msg" mc="Infrastructure.Stereotype" uid="6ea5e07b-9366-4d20-b4e8-520d6d72a71e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

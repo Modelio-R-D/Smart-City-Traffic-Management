@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uav_flocking" version="4">
+  <OBJECT>
+    <ID name="uav_flocking" mc="Standard.Component" uid="6b60a87f-9da5-493c-aa69-d9ca5edea685"/>
+    <PID name="swarm_behaviors" mc="Standard.Package" uid="57048320-40ff-464b-9454-36bbf8c6ca8c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[uav_flocking]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="uav_flocking" mc="Standard.StateMachine" uid="86e066ed-0844-4bbf-ba04-895c749856a4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

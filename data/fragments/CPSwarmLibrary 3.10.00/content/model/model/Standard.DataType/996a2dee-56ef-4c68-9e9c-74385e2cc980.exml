@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pose" version="4">
+  <OBJECT>
+    <ID name="Pose" mc="Standard.DataType" uid="996a2dee-56ef-4c68-9e9c-74385e2cc980"/>
+    <PID name="geometry_msgs" mc="Standard.Package" uid="4ddaae52-9072-435d-a1ea-6cad98a5ea6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Pose]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Msg" mc="Infrastructure.Stereotype" uid="6ea5e07b-9366-4d20-b4e8-520d6d72a71e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Smart Traffic Management" version="4">
+  <OBJECT>
+    <ID name="Smart Traffic Management" mc="Standard.Class" uid="796d74aa-b19e-4b0e-9038-3f45cd69e01a"/>
+    <PID name="Tosca service topology" mc="Standard.Package" uid="e88acfe8-dde3-442d-93d8-aaa4dffed2c2"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Smart Traffic Management]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Inputs" mc="Standard.Class" uid="8f080442-c831-456e-8769-5d26a2d00c4a"/>
+        <COMPID name="Policies" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
+        <COMPID name="Constraints" mc="Standard.Class" uid="24dbd55c-f795-4077-956b-983075f06362"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TServiceTemplate" mc="Infrastructure.Stereotype" uid="09682faf-27b8-4c4b-a5e6-22fe18303161"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

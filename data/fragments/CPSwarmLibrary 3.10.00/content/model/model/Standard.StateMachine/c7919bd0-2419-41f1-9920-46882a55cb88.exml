@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uav_simple_tracking" version="4">
+  <OBJECT>
+    <ID name="uav_simple_tracking" mc="Standard.StateMachine" uid="c7919bd0-2419-41f1-9920-46882a55cb88"/>
+    <PID name="uav_simple_tracking" mc="Standard.Component" uid="08eb0db2-5bdb-4ef4-8338-0d669bdc0ad4"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[uav_simple_tracking]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="2e98ea10-4704-42df-834b-cca913ca0978"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

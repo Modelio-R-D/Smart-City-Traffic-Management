@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CPSwarm.concept" version="4">
+  <OBJECT>
+    <ID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <PID name="CPSwarm" mc="Infrastructure.ModuleComponent" uid="b914be5e-e9d5-4c22-84be-9edec27e429c"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CPSwarm.concept]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="Actuator" mc="Infrastructure.Stereotype" uid="431b7386-fd22-474a-a1f0-262e6cb763df"/>
+        <COMPID name="Behavior" mc="Infrastructure.Stereotype" uid="a993fdfc-bb89-477d-99fe-2a4b3bc43f27"/>
+        <COMPID name="CPSwarmComponent" mc="Infrastructure.Stereotype" uid="ded65f03-9b1f-4279-82e7-4b2d4023ec0e"/>
+        <COMPID name="CommunicationInterface" mc="Infrastructure.Stereotype" uid="6893d58e-559b-4b17-93d5-6172401f6980"/>
+        <COMPID name="Controller" mc="Infrastructure.Stereotype" uid="ba5073cb-49b9-4e5b-84ff-252f8bc1efe9"/>
+        <COMPID name="EnvironmentDefinition" mc="Infrastructure.Stereotype" uid="308a413a-7415-46f0-b2f5-3a0abc21a4b4"/>
+        <COMPID name="FitnessDefinition" mc="Infrastructure.Stereotype" uid="bf70e1ec-cc1b-43d6-9e41-0680e431f190"/>
+        <COMPID name="FitnessFunction" mc="Infrastructure.Stereotype" uid="67792719-f8fd-47e6-b093-2c5244565789"/>
+        <COMPID name="OptimisedArgument" mc="Infrastructure.Stereotype" uid="df23066a-482d-4ac0-a757-7e581cee88c7"/>
+        <COMPID name="Optimised_End" mc="Infrastructure.Stereotype" uid="f49e8308-8867-4964-a590-a0f5450bb27b"/>
+        <COMPID name="Optimised_Parameter" mc="Infrastructure.Stereotype" uid="3d061da0-d6df-4f49-902a-3abc6419139e"/>
+        <COMPID name="Optimised_Port" mc="Infrastructure.Stereotype" uid="7126f7f9-776f-4dbb-84a6-dec48bb7997f"/>
+        <COMPID name="Problem" mc="Infrastructure.Stereotype" uid="5bfe0e67-fb3e-49db-a10e-7b62c4d44aed"/>
+        <COMPID name="RoSAlgorithm" mc="Infrastructure.Stereotype" uid="792ec7b4-e211-4544-bf4a-244e9d0ca6b0"/>
+        <COMPID name="ROSBehavior" mc="Infrastructure.Stereotype" uid="9bc957f8-c99e-4977-97ea-f33bbcc766f8"/>
+        <COMPID name="RoSAbstraction" mc="Infrastructure.Stereotype" uid="dfc6ccfa-e9e6-490c-bdc5-a70f289fc1c8"/>
+        <COMPID name="Sensor" mc="Infrastructure.Stereotype" uid="0cc49982-e520-401e-91b9-49354b24e208"/>
+        <COMPID name="Swarm" mc="Infrastructure.Stereotype" uid="b7712590-a4be-4290-b91e-1e8e27d8005c"/>
+        <COMPID name="SwarmMember" mc="Infrastructure.Stereotype" uid="716ed069-c82d-4d0e-a2c8-c19ca8eeb165"/>
+        <COMPID name="Virtual" mc="Infrastructure.Stereotype" uid="bd764e2a-af34-4cf3-a783-cb467d8753e7"/>
+        <COMPID name="Topic" mc="Infrastructure.Stereotype" uid="8029f5c0-1f69-4fc0-abc6-705d4692a835"/>
+        <COMPID name="Msg" mc="Infrastructure.Stereotype" uid="6ea5e07b-9366-4d20-b4e8-520d6d72a71e"/>
+        <COMPID name="ROSPackage" mc="Infrastructure.Stereotype" uid="70829b13-2ad6-4af3-ad17-a16be6c1ad1b"/>
+        <COMPID name="ROSMonitoring" mc="Infrastructure.Stereotype" uid="9d48fdd3-fa47-4913-a877-0352effb9438"/>
+        <COMPID name="ROSComponent" mc="Infrastructure.Stereotype" uid="29dfda8e-6dff-4e42-8b00-a1c9d874a911"/>
+        <COMPID name="DepTopic" mc="Infrastructure.Stereotype" uid="7a93e4a6-bc97-4e2d-9f1c-817a97006912"/>
+        <COMPID name="DepMsg" mc="Infrastructure.Stereotype" uid="21e11c33-b511-47d5-9375-6e859480aba4"/>
+        <COMPID name="DepPort" mc="Infrastructure.Stereotype" uid="ae2a993a-af56-4f02-81a7-e01dac2e1a72"/>
+        <COMPID name="ROSAction" mc="Infrastructure.Stereotype" uid="3331baf8-fec8-4148-ac72-4715a265aa18"/>
+        <COMPID name="ROSService" mc="Infrastructure.Stereotype" uid="e4459638-1dee-4e15-bb1c-b98cddf4edab"/>
+        <COMPID name="GOAL" mc="Infrastructure.Stereotype" uid="17496ef0-8203-4732-8a12-74a436c1198f"/>
+        <COMPID name="RESULT" mc="Infrastructure.Stereotype" uid="de05dfa4-5538-4a5e-b96f-9b2107ea3994"/>
+        <COMPID name="DepCommModel" mc="Infrastructure.Stereotype" uid="d0e49f00-ab0d-4197-a024-6939bd1825ff"/>
+        <COMPID name="Mapped" mc="Infrastructure.Stereotype" uid="27c0b9bb-b173-4a80-8712-1daa12b7736f"/>
+      </COMP>
+      <COMP relation="OwnedReference">
+        <COMPID name="" mc="Infrastructure.MetaclassReference" uid="3ad66167-c758-456c-90af-81eb4c2d51fd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

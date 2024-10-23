@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Signal" version="4">
+  <OBJECT>
+    <ID name="Signal" mc="Standard.Package" uid="085bd2a3-84aa-42b7-b8cb-ef346af7c6f6"/>
+    <PID name="Type" mc="Standard.Package" uid="417cfb27-a52e-42c3-9161-5bd4acb2e429"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Signal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MissionAbort" mc="Standard.Signal" uid="0dd8ca70-347a-411d-ab13-d3cbddb3d005"/>
+        <COMPID name="Emergency" mc="Standard.Signal" uid="4ee68ce2-cd14-4ace-ab98-55927413e460"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

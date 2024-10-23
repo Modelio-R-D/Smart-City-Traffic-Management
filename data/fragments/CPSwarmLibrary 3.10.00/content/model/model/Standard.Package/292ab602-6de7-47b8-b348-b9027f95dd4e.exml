@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="global" version="4">
+  <OBJECT>
+    <ID name="global" mc="Standard.Package" uid="292ab602-6de7-47b8-b348-b9027f95dd4e"/>
+    <PID name="global_position" mc="Standard.Package" uid="1f2014d6-1a37-4dcc-9e7b-61c4c75328f9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[global]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Topic" mc="Infrastructure.Stereotype" uid="8029f5c0-1f69-4fc0-abc6-705d4692a835"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

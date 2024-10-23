@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Threat Model" version="4">
+  <OBJECT>
+    <ID name="Threat Model" mc="Standard.Package" uid="1e085f55-b6c6-4395-985f-6a8399a6684e"/>
+    <PID name="smart city traffic management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Threat Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Disruption of traffic flow at intersection due to cyberattack" mc="Standard.Class" uid="fd8f1aa3-3f3d-4d72-8bd0-cf763a07671a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

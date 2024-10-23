@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deployment Rules" version="4">
+  <OBJECT>
+    <ID name="Deployment Rules" mc="Standard.Package" uid="eb5b7038-b44d-4bf4-afec-b10e934b6419"/>
+    <PID name="Topology Template" mc="Standard.Package" uid="b3f53eb4-8d2a-4a93-843f-39f75c854ad7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Deployment Rules]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="high_cpu_utilization_on_camera" mc="Standard.Class" uid="9ac9fd6d-d7de-46bc-b306-f204878a9a0c"/>
+        <COMPID name="edge_low_power_mode" mc="Standard.Class" uid="eee06ec3-a6cb-4114-9dd0-84020892f971"/>
+        <COMPID name="high_traffic_scaling" mc="Standard.Class" uid="98794cd8-0cc4-4c3b-9ea5-3c750cd61be1"/>
+        <COMPID name="low_traffic_scaling" mc="Standard.Class" uid="824479be-c6df-4417-afc6-5046e3a4201d"/>
+        <COMPID name="low_latency_object_tracking" mc="Standard.Class" uid="5007c9eb-9599-46cb-881d-a67e571cf2f4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TPolicyType" mc="Infrastructure.Stereotype" uid="b76dbc7d-8b6f-46f8-89d4-f0ea8eea40d2"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

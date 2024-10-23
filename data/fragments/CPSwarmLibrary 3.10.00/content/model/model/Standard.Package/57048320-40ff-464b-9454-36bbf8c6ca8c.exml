@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swarm_behaviors" version="4">
+  <OBJECT>
+    <ID name="swarm_behaviors" mc="Standard.Package" uid="57048320-40ff-464b-9454-36bbf8c6ca8c"/>
+    <PID name="Swarm Library" mc="Standard.Package" uid="817c7bbb-1469-4946-acfc-f473c4b7f020"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swarm_behaviors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="uav_flocking" mc="Standard.Component" uid="6b60a87f-9da5-493c-aa69-d9ca5edea685"/>
+        <COMPID name="uav_local_coverage" mc="Standard.Component" uid="83615d42-dc5d-4245-a791-8f3d77233d68"/>
+        <COMPID name="uav_optimal_coverage" mc="Standard.Component" uid="eea1c04f-ba89-4d0f-8c28-54f2433ba2e5"/>
+        <COMPID name="uav_random_direction" mc="Standard.Component" uid="97c5f649-787d-4b6b-8ae4-42aa2607757f"/>
+        <COMPID name="uav_simple_tracking" mc="Standard.Component" uid="08eb0db2-5bdb-4ef4-8338-0d669bdc0ad4"/>
+        <COMPID name="uav_random_walk" mc="Standard.Component" uid="360206fb-90b8-4db3-a83a-81ab4fb5d623"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interface" version="4">
+  <OBJECT>
+    <ID name="Interface" mc="Standard.Package" uid="87261c83-178d-43ca-bb19-a4ae8bcdd73d"/>
+    <PID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Interface]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="zyre" mc="Standard.Class" uid="c2129fa2-92de-4580-b196-e1deaab10388"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

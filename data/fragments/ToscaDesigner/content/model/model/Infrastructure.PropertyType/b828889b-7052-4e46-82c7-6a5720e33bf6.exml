@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DerivedFromType1" version="4">
+  <OBJECT>
+    <ID name="DerivedFromType1" mc="Infrastructure.PropertyType" uid="b828889b-7052-4e46-82c7-6a5720e33bf6"/>
+    <PID name="ToscaDesigner" mc="Infrastructure.ModuleComponent" uid="942db9f9-6869-472c-b269-9ca7ec36a014"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Text</ATT>
+      <ATT name="Name"><![CDATA[DerivedFromType1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="055c77ff-6382-45b7-82eb-0f39fc05fed8"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[%propertytypeDerivedFromType1.description]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

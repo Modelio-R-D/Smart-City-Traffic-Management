@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DataType" version="4">
+  <OBJECT>
+    <ID name="DataType" mc="Standard.Package" uid="22d97fad-ce8d-4d79-a3b2-8b29992a409d"/>
+    <PID name="Type" mc="Standard.Package" uid="417cfb27-a52e-42c3-9161-5bd4acb2e429"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DataType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Address" mc="Standard.DataType" uid="57b18ebb-5956-4267-a7c7-7b5f710e9fc1"/>
+        <COMPID name="Technology" mc="Standard.DataType" uid="6ffd24fb-fd7a-4e6b-9ce4-7ba614ee3e89"/>
+        <COMPID name="Data " mc="Standard.DataType" uid="03a1ede2-4809-4019-b461-ceed9683e16f"/>
+        <COMPID name="UUID" mc="Standard.DataType" uid="083ce045-a537-4b2f-bdeb-9c3f3f1d70bc"/>
+        <COMPID name="Index" mc="Standard.DataType" uid="bd3242be-a597-4cb6-9352-70a0f2ebe9c0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

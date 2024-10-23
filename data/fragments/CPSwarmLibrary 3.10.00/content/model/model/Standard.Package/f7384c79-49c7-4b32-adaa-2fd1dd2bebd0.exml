@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sensor" version="4">
+  <OBJECT>
+    <ID name="Sensor" mc="Standard.Package" uid="f7384c79-49c7-4b32-adaa-2fd1dd2bebd0"/>
+    <PID name="Hardware Component" mc="Standard.Package" uid="1b32916b-64c6-43ac-be98-d36834906ca3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sensor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMOS OV5640" mc="Standard.Class" uid="c0baa5b9-4b82-4876-a977-597915d16be6"/>
+        <COMPID name="CNY70" mc="Standard.Class" uid="4fcc0f0b-c59e-43de-9a01-afdc2eabda35"/>
+        <COMPID name="Communication Interface" mc="Standard.Class" uid="74704198-fcb8-4226-99f2-fc1a75c4b0af"/>
+        <COMPID name="GP2D12" mc="Standard.Class" uid="0435edc6-2493-4e13-9726-f2ee09990e8e"/>
+        <COMPID name="GPS" mc="Standard.Class" uid="73e9aebc-1a45-4484-8637-64a4c8c7453f"/>
+        <COMPID name="POI Sensor" mc="Standard.Class" uid="530beff5-15ca-4160-9818-ec77dc626c8c"/>
+        <COMPID name="Range Sensor" mc="Standard.Class" uid="f584517a-9e86-401c-a8c1-ba34d84b6658"/>
+        <COMPID name="Sonar" mc="Standard.Class" uid="cd096d5c-82f6-4883-9d78-8ae9c19b03c9"/>
+        <COMPID name="UWB" mc="Standard.Class" uid="82622a8f-1dcd-4da1-a6b6-6bad42cb47a3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

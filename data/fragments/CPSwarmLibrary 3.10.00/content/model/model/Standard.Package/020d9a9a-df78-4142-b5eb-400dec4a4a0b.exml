@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="020d9a9a-df78-4142-b5eb-400dec4a4a0b"/>
+    <PID name="bridge" mc="Standard.Package" uid="c119a955-4339-459a-8406-dfb434001214"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="mission_abort" mc="Standard.Package" uid="c78af7f2-9cc1-4357-bbe0-e94f62ec000f"/>
+        <COMPID name="go_home" mc="Standard.Package" uid="b48f74b4-3ede-4d70-9a66-e56ddfe389f5"/>
+        <COMPID name="target_update" mc="Standard.Package" uid="6027d69d-0268-4d97-8a83-a35a0b1920eb"/>
+        <COMPID name="target_found" mc="Standard.Package" uid="9581a7c0-0358-40ed-9885-a3fd7b078cbf"/>
+        <COMPID name="target_lost" mc="Standard.Package" uid="01096043-8f35-4b09-8de6-18755333af34"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSPackage" mc="Infrastructure.Stereotype" uid="70829b13-2ad6-4af3-ad17-a16be6c1ad1b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

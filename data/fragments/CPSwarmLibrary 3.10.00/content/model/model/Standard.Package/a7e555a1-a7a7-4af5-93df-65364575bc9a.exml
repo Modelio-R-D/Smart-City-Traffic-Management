@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swarm_functions" version="4">
+  <OBJECT>
+    <ID name="swarm_functions" mc="Standard.Package" uid="a7e555a1-a7a7-4af5-93df-65364575bc9a"/>
+    <PID name="Swarm Library" mc="Standard.Package" uid="817c7bbb-1469-4946-acfc-f473c4b7f020"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swarm_functions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="area_division" mc="Standard.Component" uid="5559e21b-9889-4477-8ae0-c1af19bfe0ae"/>
+        <COMPID name="coverage_path" mc="Standard.Component" uid="ee289ac4-dd68-4344-ae8c-3bdd36221fe8"/>
+        <COMPID name="kinematics_exchanger" mc="Standard.Component" uid="4e8bdfb6-e7fc-40c9-a4e8-a1128b055fe5"/>
+        <COMPID name="state_exchanger" mc="Standard.Component" uid="1b0a7957-870f-4a9f-bf6f-0e5c3b84885b"/>
+        <COMPID name="target_monitor" mc="Standard.Component" uid="cf356cdf-b901-4377-a149-045e634e287a"/>
+        <COMPID name="task_allocation" mc="Standard.Component" uid="5d9b45f5-e917-4fe9-89e5-164b17639f1b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

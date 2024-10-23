@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="kinematics_exchanger" version="4">
+  <OBJECT>
+    <ID name="kinematics_exchanger" mc="Standard.StateMachine" uid="9954b59d-3395-4eb4-b3ec-282fa182ce7c"/>
+    <PID name="kinematics_exchanger" mc="Standard.Component" uid="4e8bdfb6-e7fc-40c9-a4e8-a1128b055fe5"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[kinematics_exchanger]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="cf5928b5-b941-4af4-8b6c-cd5db12fc752"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

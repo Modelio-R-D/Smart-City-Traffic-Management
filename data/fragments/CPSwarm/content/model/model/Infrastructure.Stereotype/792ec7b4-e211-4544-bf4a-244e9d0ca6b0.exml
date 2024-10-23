@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RoSAlgorithm" version="4">
+  <OBJECT>
+    <ID name="RoSAlgorithm" mc="Infrastructure.Stereotype" uid="792ec7b4-e211-4544-bf4a-244e9d0ca6b0"/>
+    <PID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.RoSAlgorithm.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Operation]]></ATT>
+      <ATT name="Name"><![CDATA[RoSAlgorithm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ROSBehavior" mc="Infrastructure.Stereotype" uid="9bc957f8-c99e-4977-97ea-f33bbcc766f8"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

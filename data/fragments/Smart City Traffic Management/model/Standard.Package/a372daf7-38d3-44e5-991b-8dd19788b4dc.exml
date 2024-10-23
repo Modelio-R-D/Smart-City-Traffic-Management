@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Swarm Model" version="4">
+  <OBJECT>
+    <ID name="Swarm Model" mc="Standard.Package" uid="a372daf7-38d3-44e5-991b-8dd19788b4dc"/>
+    <PID name="Smart City Traffic Management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Swarm Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="TrafficManagementBehaviour" mc="Standard.StateMachine" uid="1b8f2e2a-5076-499b-9705-df196ef14e87"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Swarm" mc="Standard.Class" uid="d84487fd-2706-4285-ac0e-01e9c4b576b4"/>
+        <COMPID name="Smart Camera" mc="Standard.Class" uid="5b2206d5-763a-4b39-8b03-a85d8387fbf8"/>
+        <COMPID name="Cloud Instance" mc="Standard.Class" uid="37728dba-c26b-4fee-8f42-657c66b388dd"/>
+        <COMPID name="Fog Node" mc="Standard.Class" uid="c5ade687-45dd-4070-80cc-ee3dd6201987"/>
+        <COMPID name="Traffic Controller" mc="Standard.Class" uid="6fd19e8d-956f-49b1-9eec-bc13a93f9ba0"/>
+        <COMPID name="Cooperative Vehicle" mc="Standard.Class" uid="5912e7d7-3b1c-4b10-91ac-4f6c100a1de5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="TrafficManagementArchitecture" mc="Standard.ClassDiagram" uid="80f20d42-4f01-4d1a-aa0d-a4d1051ad9d8"/>
+        <COMPID name="TrafficManagementBlockDiagram" mc="Standard.ClassDiagram" uid="ad0019c6-6d89-41b7-ba41-88a741db2c8c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

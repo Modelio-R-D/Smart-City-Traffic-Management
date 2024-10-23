@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Function Cost" version="4">
+  <OBJECT>
+    <ID name="Function Cost" mc="Standard.Package" uid="0bb31b8a-5c6e-431a-bff3-daa4c12fe098"/>
+    <PID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Function Cost]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Max" mc="Standard.Class" uid="0381e94a-8739-4b04-9eee-703fee8f592e"/>
+        <COMPID name="Percentage" mc="Standard.Class" uid="ad5c161d-7136-4e2d-ba1b-11fd33103732"/>
+        <COMPID name="startTime" mc="Standard.DataType" uid="253ea16c-8ba8-4beb-bed8-20d54efda438"/>
+        <COMPID name="maxTime" mc="Standard.DataType" uid="86dba3ed-6da2-4c72-a4e5-f9ca28045e0c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="FitnessDefinition" mc="Infrastructure.Stereotype" uid="bf70e1ec-cc1b-43d6-9e41-0680e431f190"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

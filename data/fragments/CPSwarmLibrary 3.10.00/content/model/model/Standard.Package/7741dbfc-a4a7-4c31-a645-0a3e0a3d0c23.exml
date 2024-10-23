@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Environment" version="4">
+  <OBJECT>
+    <ID name="Environment" mc="Standard.Package" uid="7741dbfc-a4a7-4c31-a645-0a3e0a3d0c23"/>
+    <PID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Environment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SAR" mc="Standard.Class" uid="08d06d36-fe6c-42f1-9658-bd87e7531d65"/>
+        <COMPID name="Logistic" mc="Standard.Class" uid="87afd977-ed30-4af6-9cf7-a9d767129b9b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="EnvironmentDefinition" mc="Infrastructure.Stereotype" uid="308a413a-7415-46f0-b2f5-3a0abc21a4b4"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

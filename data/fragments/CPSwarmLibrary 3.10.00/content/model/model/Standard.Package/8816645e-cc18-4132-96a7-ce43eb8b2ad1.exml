@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML Model" version="4">
+  <OBJECT>
+    <ID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <PID name="CPSwarmLibrary" mc="Standard.Project" uid="0d620dcb-7a6a-456d-a104-6a2328829c61"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UML Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Type" mc="Standard.Package" uid="417cfb27-a52e-42c3-9161-5bd4acb2e429"/>
+        <COMPID name="Hardware Component" mc="Standard.Package" uid="1b32916b-64c6-43ac-be98-d36834906ca3"/>
+        <COMPID name="CPSwarmLibrary" mc="Standard.Artifact" uid="c4a02c92-df6a-4a16-bec6-6af25626e6c9"/>
+        <COMPID name="Interface" mc="Standard.Package" uid="87261c83-178d-43ca-bb19-a4ae8bcdd73d"/>
+        <COMPID name="Swarm Library" mc="Standard.Package" uid="817c7bbb-1469-4946-acfc-f473c4b7f020"/>
+        <COMPID name="Abstraction Library" mc="Standard.Package" uid="a7d81b04-5c0e-469c-a2c2-6503bb651791"/>
+        <COMPID name="Environment" mc="Standard.Package" uid="7741dbfc-a4a7-4c31-a645-0a3e0a3d0c23"/>
+        <COMPID name="Function Cost" mc="Standard.Package" uid="0bb31b8a-5c6e-431a-bff3-daa4c12fe098"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

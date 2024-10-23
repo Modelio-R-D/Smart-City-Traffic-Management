@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Swarm Library" version="4">
+  <OBJECT>
+    <ID name="Swarm Library" mc="Standard.Package" uid="817c7bbb-1469-4946-acfc-f473c4b7f020"/>
+    <PID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Swarm Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="swarm_functions" mc="Standard.Package" uid="a7e555a1-a7a7-4af5-93df-65364575bc9a"/>
+        <COMPID name="swarm_behaviors" mc="Standard.Package" uid="57048320-40ff-464b-9454-36bbf8c6ca8c"/>
+        <COMPID name="complex_behaviors" mc="Standard.Package" uid="8de3f8da-43d1-46b5-a345-23b52d2e417a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

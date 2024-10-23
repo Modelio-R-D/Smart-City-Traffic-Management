@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Header" version="4">
+  <OBJECT>
+    <ID name="Header" mc="Standard.DataType" uid="832dd37c-a9ea-4bbd-9506-5133bfb021c6"/>
+    <PID name="stds_msgs" mc="Standard.Package" uid="bf7052f7-f80c-454b-a355-04846dad9d57"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Header]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Msg" mc="Infrastructure.Stereotype" uid="6ea5e07b-9366-4d20-b4e8-520d6d72a71e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Smart City Traffic Management" version="4">
+  <OBJECT>
+    <ID name="Smart City Traffic Management" mc="Standard.Project" uid="dd144313-1d9c-4418-b2b5-41819bd80d8b"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Smart City Traffic Management]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="smart city traffic management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Smart City Traffic Management" mc="Infrastructure.DiagramSet" uid="681333ba-ebec-4707-bd37-d7fc52d1a058"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

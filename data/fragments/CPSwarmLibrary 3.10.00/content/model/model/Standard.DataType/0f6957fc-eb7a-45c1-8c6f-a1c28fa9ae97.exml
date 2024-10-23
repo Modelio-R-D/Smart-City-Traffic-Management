@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TargetPositionEvent" version="4">
+  <OBJECT>
+    <ID name="TargetPositionEvent" mc="Standard.DataType" uid="0f6957fc-eb7a-45c1-8c6f-a1c28fa9ae97"/>
+    <PID name="cpswarm_msgs" mc="Standard.Package" uid="929e972c-e458-42e1-9d5e-67423556f597"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TargetPositionEvent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Msg" mc="Infrastructure.Stereotype" uid="6ea5e07b-9366-4d20-b4e8-520d6d72a71e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

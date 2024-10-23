@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="InstanceStateType" version="4">
+  <OBJECT>
+    <ID name="InstanceStateType" mc="Infrastructure.PropertyType" uid="607b406a-4956-478a-91a2-36f669e0e484"/>
+    <PID name="ToscaDesigner" mc="Infrastructure.ModuleComponent" uid="942db9f9-6869-472c-b269-9ca7ec36a014"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">String</ATT>
+      <ATT name="Name"><![CDATA[InstanceStateType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ba816fa6-a802-4e1a-ba8b-b4cc2c60f272"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[%propertytypeInstanceStateType.description]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="complex_behaviors" version="4">
+  <OBJECT>
+    <ID name="complex_behaviors" mc="Standard.Package" uid="8de3f8da-43d1-46b5-a345-23b52d2e417a"/>
+    <PID name="Swarm Library" mc="Standard.Package" uid="817c7bbb-1469-4946-acfc-f473c4b7f020"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[complex_behaviors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="sar" mc="Standard.Component" uid="8e68a889-98bf-4220-bd95-1232e8ef3d87"/>
+        <COMPID name="storage" mc="Standard.Component" uid="bd1bcc20-a4d3-46e1-a002-99cfaa5b60fc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

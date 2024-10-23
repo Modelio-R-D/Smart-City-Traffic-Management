@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CPSwarm" version="4">
+  <OBJECT>
+    <ID name="CPSwarm" mc="Infrastructure.ModuleComponent" uid="b914be5e-e9d5-4c22-84be-9edec27e429c"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">3</ATT>
+      <ATT name="MinVersion">10</ATT>
+      <ATT name="MinMinVersion"><![CDATA[0]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[org.modelio.module.cpswarm.impl.CPSwarmModule]]></ATT>
+      <ATT name="Name"><![CDATA[CPSwarm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+        <COMPID name="CPSwarm.diagram" mc="Infrastructure.Profile" uid="8e8834de-b0af-4b68-8350-7eca4cf46118"/>
+        <COMPID name="CPSwarm.sdf" mc="Infrastructure.Profile" uid="c7d29857-1c3d-4f5c-9ed3-66ee5ca6a33a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

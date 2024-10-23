@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Empty" version="4">
+  <OBJECT>
+    <ID name="Empty" mc="Standard.Interface" uid="75533d92-80f2-4fff-a798-5938a876bf74"/>
+    <PID name="cpswarm_msgs" mc="Standard.Package" uid="929e972c-e458-42e1-9d5e-67423556f597"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Empty]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSAction" mc="Infrastructure.Stereotype" uid="3331baf8-fec8-4148-ac72-4715a265aa18"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

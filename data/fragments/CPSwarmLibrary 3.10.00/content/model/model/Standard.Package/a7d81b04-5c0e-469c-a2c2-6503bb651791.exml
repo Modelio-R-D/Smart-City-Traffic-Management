@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Abstraction Library" version="4">
+  <OBJECT>
+    <ID name="Abstraction Library" mc="Standard.Package" uid="a7d81b04-5c0e-469c-a2c2-6503bb651791"/>
+    <PID name="UML Model" mc="Standard.Package" uid="8816645e-cc18-4132-96a7-ce43eb8b2ad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Abstraction Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="hardware_functions" mc="Standard.Node" uid="f8b00b46-5c7c-48fa-8fd5-72d307ad81c4"/>
+        <COMPID name="sensing_actuation" mc="Standard.Node" uid="e7c567ba-87ce-476c-8ab6-a6565512c782"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

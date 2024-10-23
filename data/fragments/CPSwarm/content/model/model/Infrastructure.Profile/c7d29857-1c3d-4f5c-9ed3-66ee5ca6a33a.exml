@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CPSwarm.sdf" version="4">
+  <OBJECT>
+    <ID name="CPSwarm.sdf" mc="Infrastructure.Profile" uid="c7d29857-1c3d-4f5c-9ed3-66ee5ca6a33a"/>
+    <PID name="CPSwarm" mc="Infrastructure.ModuleComponent" uid="b914be5e-e9d5-4c22-84be-9edec27e429c"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CPSwarm.sdf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="World" mc="Infrastructure.Stereotype" uid="74644671-e0b4-4787-8aba-ba84f5a00a4c"/>
+        <COMPID name="SDFRoot" mc="Infrastructure.Stereotype" uid="2e502060-b638-4009-9e0d-0185890bfec1"/>
+        <COMPID name="Model" mc="Infrastructure.Stereotype" uid="5f61a402-9917-475e-b236-e15462182576"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

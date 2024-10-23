@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swarmros" version="4">
+  <OBJECT>
+    <ID name="swarmros" mc="Standard.Package" uid="fce02bc3-f7ab-4d58-925c-3f8197494626"/>
+    <PID name="ROS" mc="Standard.Package" uid="ccff124d-1b25-4501-8605-c68e441c4d94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swarmros]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SimpleEvent" mc="Standard.DataType" uid="5a1512e0-2bef-49d9-a932-11328ce4822b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ROSPackage" mc="Infrastructure.Stereotype" uid="70829b13-2ad6-4af3-ad17-a16be6c1ad1b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

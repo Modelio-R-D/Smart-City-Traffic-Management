@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="target_found" version="4">
+  <OBJECT>
+    <ID name="target_found" mc="Standard.Package" uid="9581a7c0-0358-40ed-9885-a3fd7b078cbf"/>
+    <PID name="events" mc="Standard.Package" uid="020d9a9a-df78-4142-b5eb-400dec4a4a0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[target_found]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Topic" mc="Infrastructure.Stereotype" uid="8029f5c0-1f69-4fc0-abc6-705d4692a835"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

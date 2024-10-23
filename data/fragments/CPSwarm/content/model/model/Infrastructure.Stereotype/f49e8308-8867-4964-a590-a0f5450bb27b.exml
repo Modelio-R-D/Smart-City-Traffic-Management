@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Optimised_End" version="4">
+  <OBJECT>
+    <ID name="Optimised_End" mc="Infrastructure.Stereotype" uid="f49e8308-8867-4964-a590-a0f5450bb27b"/>
+    <PID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Optimised_End.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.AssociationEnd]]></ATT>
+      <ATT name="Name"><![CDATA[Optimised_End]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="OptimisedArgument" mc="Infrastructure.Stereotype" uid="df23066a-482d-4ac0-a757-7e581cee88c7"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

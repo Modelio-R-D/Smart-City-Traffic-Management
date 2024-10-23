@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SDFRoot" version="4">
+  <OBJECT>
+    <ID name="SDFRoot" mc="Infrastructure.Stereotype" uid="2e502060-b638-4009-9e0d-0185890bfec1"/>
+    <PID name="CPSwarm.sdf" mc="Infrastructure.Profile" uid="c7d29857-1c3d-4f5c-9ed3-66ee5ca6a33a"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SDFRoot.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Package]]></ATT>
+      <ATT name="Name"><![CDATA[SDFRoot]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

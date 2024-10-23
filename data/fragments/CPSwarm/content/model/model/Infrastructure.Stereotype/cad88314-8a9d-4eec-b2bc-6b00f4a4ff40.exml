@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwarmBlockDiagram" version="4">
+  <OBJECT>
+    <ID name="SwarmBlockDiagram" mc="Infrastructure.Stereotype" uid="cad88314-8a9d-4eec-b2bc-6b00f4a4ff40"/>
+    <PID name="CPSwarm.diagram" mc="Infrastructure.Profile" uid="8e8834de-b0af-4b68-8350-7eca4cf46118"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[res/icon/gui/swarmblockdiagram.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwarmBlockDiagram.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.ClassDiagram]]></ATT>
+      <ATT name="Name"><![CDATA[SwarmBlockDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

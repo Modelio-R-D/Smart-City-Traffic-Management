@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Smart City Traffic Management" version="4">
+  <OBJECT>
+    <ID name="Smart City Traffic Management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
+    <PID name="Smart City Traffic Management" mc="Standard.Project" uid="dd144313-1d9c-4418-b2b5-41819bd80d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Smart City Traffic Management]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Threat Model" mc="Standard.Package" uid="1e085f55-b6c6-4395-985f-6a8399a6684e"/>
+        <COMPID name="Swarm Model" mc="Standard.Package" uid="a372daf7-38d3-44e5-991b-8dd19788b4dc"/>
+        <COMPID name="Tosca service topology" mc="Standard.Package" uid="e88acfe8-dde3-442d-93d8-aaa4dffed2c2"/>
+        <COMPID name="System Behavior Models" mc="Standard.Package" uid="b7cdfb38-97b6-4cb6-802f-50f00ca6d171"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

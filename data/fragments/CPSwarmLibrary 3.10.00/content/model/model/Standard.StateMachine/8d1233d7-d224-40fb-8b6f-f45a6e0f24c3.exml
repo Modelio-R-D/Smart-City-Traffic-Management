@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uav_optimal_coverage" version="4">
+  <OBJECT>
+    <ID name="uav_optimal_coverage" mc="Standard.StateMachine" uid="8d1233d7-d224-40fb-8b6f-f45a6e0f24c3"/>
+    <PID name="uav_optimal_coverage" mc="Standard.Component" uid="eea1c04f-ba89-4d0f-8c28-54f2433ba2e5"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[uav_optimal_coverage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="1e075f57-b429-4cec-aa67-03a7fd5187e9"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

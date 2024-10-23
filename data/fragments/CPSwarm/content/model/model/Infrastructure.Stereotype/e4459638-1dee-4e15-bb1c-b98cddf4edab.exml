@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ROSService" version="4">
+  <OBJECT>
+    <ID name="ROSService" mc="Infrastructure.Stereotype" uid="e4459638-1dee-4e15-bb1c-b98cddf4edab"/>
+    <PID name="CPSwarm.concept" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ROSService.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Interface]]></ATT>
+      <ATT name="Name"><![CDATA[ROSService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

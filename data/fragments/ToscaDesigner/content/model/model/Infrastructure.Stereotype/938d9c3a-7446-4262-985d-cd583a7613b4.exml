@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ImportElement" version="4">
+  <OBJECT>
+    <ID name="ImportElement" mc="Infrastructure.Stereotype" uid="938d9c3a-7446-4262-985d-cd583a7613b4"/>
+    <PID name="Tosca" mc="Infrastructure.Profile" uid="052601e7-dbd7-42a1-9f15-ca5eaf0707f8"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/icon/gui/import48.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/icon/gui/import24.ICON.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ImportElement.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[ImportElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="ImportElementPropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="b1566f06-e64c-4e30-961f-4407e2e050e2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
