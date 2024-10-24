@@ -17,6 +17,7 @@
         <COMPID name="Deployment Rules" mc="Standard.Package" uid="eb5b7038-b44d-4bf4-afec-b10e934b6419"/>
         <COMPID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>
         <COMPID name="Pods" mc="Standard.Package" uid="28f873b9-0a28-4870-bbc7-fedbe49e2d39"/>
+        <COMPID name="TopologyTemplate" mc="Standard.Class" uid="d739c55e-e07e-4f70-aa85-c6c5d9446495"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>

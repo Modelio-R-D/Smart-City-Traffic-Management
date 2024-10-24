@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Policies" version="4">
   <OBJECT>
     <ID name="Policies" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
-    <PID name="Smart Traffic Management" mc="Standard.Class" uid="796d74aa-b19e-4b0e-9038-3f45cd69e01a"/>
+    <PID name="TopologyTemplate" mc="Standard.Class" uid="d739c55e-e07e-4f70-aa85-c6c5d9446495"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
