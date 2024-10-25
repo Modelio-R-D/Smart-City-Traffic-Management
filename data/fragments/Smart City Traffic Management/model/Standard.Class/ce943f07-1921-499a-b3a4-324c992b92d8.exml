@@ -44,9 +44,6 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="Class" mc="Standard.Class" uid="50c2958e-3eaa-4139-b995-ef34156a7fd3"/>
-      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TCapabilityDefinitionsType" mc="Infrastructure.Stereotype" uid="ac0418b1-a726-46e6-ac59-310f0055050f"/>
       </LINK>
