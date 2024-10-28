@@ -59,7 +59,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="[Pod]ObjectTracking" mc="Standard.Class" uid="934853b0-f10c-409b-810c-98c31755b99e"/>
+              <ID name="[Pod]ObjectDetection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>

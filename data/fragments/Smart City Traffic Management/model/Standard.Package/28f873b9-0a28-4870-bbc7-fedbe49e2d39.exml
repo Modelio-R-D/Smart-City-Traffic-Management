@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pods" version="4">
   <OBJECT>
     <ID name="Pods" mc="Standard.Package" uid="28f873b9-0a28-4870-bbc7-fedbe49e2d39"/>
-    <PID name="Topology Template" mc="Standard.Package" uid="b3f53eb4-8d2a-4a93-843f-39f75c854ad7"/>
+    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -20,7 +20,7 @@
         <COMPID name="TrafficDataAnalysis1" mc="Standard.Class" uid="f31b1ae0-a7f6-4441-9714-77c5a9b0da8c"/>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="Tgroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
+        <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>

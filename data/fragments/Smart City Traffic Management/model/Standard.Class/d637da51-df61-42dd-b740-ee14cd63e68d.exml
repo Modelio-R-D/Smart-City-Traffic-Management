@@ -59,7 +59,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="[Pod]TrafficDataAnalysis" mc="Standard.Class" uid="d8660708-148e-40f8-9e6b-f10d76a079fa"/>
+              <ID name="[Pod]ImageProcessing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>

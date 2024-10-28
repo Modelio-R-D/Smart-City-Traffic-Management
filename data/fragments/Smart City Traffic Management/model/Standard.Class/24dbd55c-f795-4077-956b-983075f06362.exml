@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Constraints" version="4">
   <OBJECT>
     <ID name="Constraints" mc="Standard.Class" uid="24dbd55c-f795-4077-956b-983075f06362"/>
-    <PID name="TopologyTemplate" mc="Standard.Class" uid="d739c55e-e07e-4f70-aa85-c6c5d9446495"/>
+    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="c149f86e-4a25-4a32-bf7a-ace57c168e5f"/>
+                <ID name="" mc="Infrastructure.Note" uid="e128bd46-73e1-4ff5-b8cf-99cf28e659b0"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TExportedOperationTable.nodeOperation.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="dbea2097-290d-47c5-a918-d2563dd05201"/>
+                <ID name="" mc="Infrastructure.Note" uid="54ad2a76-cdaa-4a91-a143-f823df4420ef"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TExportedOperationTable.relationshipOperation.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="fc65ca35-25a7-4a83-96b3-5e0a99585757"/>
+                <ID name="" mc="Infrastructure.Note" uid="2836f12f-79dc-4acb-b64d-58db29647732"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TExportedOperationTable.plan.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

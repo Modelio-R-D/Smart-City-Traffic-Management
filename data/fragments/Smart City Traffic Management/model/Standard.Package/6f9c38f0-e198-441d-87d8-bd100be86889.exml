@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Workers" version="4">
   <OBJECT>
     <ID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>
-    <PID name="Topology Template" mc="Standard.Package" uid="b3f53eb4-8d2a-4a93-843f-39f75c854ad7"/>
+    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -22,7 +22,7 @@
         <COMPID name="EdgeCamera4" mc="Standard.Class" uid="b2d6a4a8-f53d-4aab-bc7a-a52e32b7f281"/>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="Tgroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
+        <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>
