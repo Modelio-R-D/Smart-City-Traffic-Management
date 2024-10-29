@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="41cd5785-bf40-4826-a354-32a4d1ad9d6d"/>
+                <ID name="" mc="Infrastructure.Note" uid="ca43cf7f-b1f2-421d-8096-e0830fc2302b"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.name.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="2a392bee-6ab8-4e1f-9c72-43adcbf1c8ba"/>
+                <ID name="" mc="Infrastructure.Note" uid="cc1383aa-0cad-43e5-bf88-d0c19a23df7b"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.id.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="6c3b31c4-de33-4265-8692-0b5feeaeaa76"/>
+                <ID name="" mc="Infrastructure.Note" uid="811a8a47-a9a9-4850-ac82-b524c3c59f41"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.substitutableNodeType.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -113,7 +113,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="18473477-b841-4709-bd3f-eaf3ef1df3b3"/>
+                <ID name="" mc="Infrastructure.Note" uid="1a2b808b-17d6-4e03-996b-cea3f1921317"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.tags.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -143,7 +143,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b2ee3cc6-3fba-4954-bba1-3b0c7155a6d2"/>
+                <ID name="" mc="Infrastructure.Note" uid="91497b63-5cee-47c7-803b-e74d7ad688a3"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.targetNamespace.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -173,7 +173,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="4ef53313-570f-4c44-9971-5951feedd729"/>
+                <ID name="" mc="Infrastructure.Note" uid="b9be2fb1-e9a8-44aa-8a05-c9930a0fbb08"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TServiceTemplatePropertyTable.boundaryDefinitions.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
