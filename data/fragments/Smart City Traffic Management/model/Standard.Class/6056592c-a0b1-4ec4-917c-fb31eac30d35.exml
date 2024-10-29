@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="advancedDataAnalysis" version="4">
+  <OBJECT>
+    <ID name="advancedDataAnalysis" mc="Standard.Class" uid="6056592c-a0b1-4ec4-917c-fb31eac30d35"/>
+    <PID name="Capabilities" mc="Standard.Class" uid="f7375eef-b29b-4853-ab41-ec9de2615777"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[advancedDataAnalysis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityDefinition" mc="Infrastructure.Stereotype" uid="92f8cb40-9498-4759-9c75-6b4df72de355"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

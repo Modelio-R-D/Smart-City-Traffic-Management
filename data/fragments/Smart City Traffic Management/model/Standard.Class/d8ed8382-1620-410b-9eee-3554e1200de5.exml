@@ -15,34 +15,8 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedAttribute">
-        <OBJECT>
-          <ID name="objectDetectionCapability" mc="Standard.Attribute" uid="73d52c35-aac3-49de-8f67-eacaff9e0379"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[objectDetectionCapability]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TCapabilityDefinition" mc="Infrastructure.Stereotype" uid="92f8cb40-9498-4759-9c75-6b4df72de355"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
+      <COMP relation="OwnedElement">
+        <COMPID name="objectDetectionCapability" mc="Standard.Class" uid="b9d2ca17-1029-4a73-b039-291f449b433d"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TCapabilityDefinitionsType" mc="Infrastructure.Stereotype" uid="ac0418b1-a726-46e6-ac59-310f0055050f"/>
