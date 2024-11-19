@@ -15,61 +15,8 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedAttribute">
-        <OBJECT>
-          <ID name="processingRequirement" mc="Standard.Attribute" uid="759429e8-9801-4a21-b6f5-78944c85ca17"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[0.5]]></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[processingRequirement]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="memoryRequirement" mc="Standard.Attribute" uid="ef00b1ca-3f41-49b8-a8ad-4ae26c643e22"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[300MB]]></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[memoryRequirement]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TRequirement" mc="Infrastructure.Stereotype" uid="f0ddd3c2-c7ec-4156-84b0-d31b76098b17"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
+      <COMP relation="OwnedElement">
+        <COMPID name="host" mc="Standard.Class" uid="a2687a2b-a3aa-4e29-9c4d-2b0e58c1cdab"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="RequirementsType" mc="Infrastructure.Stereotype" uid="1a39bd85-e28f-4e17-b2e9-a1803359cd83"/>

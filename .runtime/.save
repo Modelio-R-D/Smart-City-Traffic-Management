@@ -1,4 +1,4 @@
-#Tue Oct 29 20:26:34 CET 2024
+#Tue Nov 19 13:13:50 CET 2024
 org.modelio.app.module.propertytab.GModule\ [id\='CPSwarm',\ version\='3.10.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_CPSwarmPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.trace.perspective.parentId=app.ui.ext_com.partstack.left
