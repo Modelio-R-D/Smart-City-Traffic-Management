@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Zero-Day Exploit" version="4">
   <OBJECT>
     <ID name="Zero-Day Exploit" mc="Standard.Class" uid="deba1506-e4ac-4bc0-a6e3-8640eabe1448"/>
-    <PID name="AND" mc="Standard.Class" uid="2ea17ba6-90bb-49f7-a462-5c4049261d36"/>
+    <PID name="OR" mc="Standard.Class" uid="178da947-7898-4f4b-86bd-238fcc5b1e4e"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -140,7 +140,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.TagParameter" uid="3c130c9f-b421-4d6e-b573-e9f79b365840"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[false]]></ATT>
+                  <ATT name="Value"><![CDATA[true]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -148,6 +148,22 @@
             </COMP>
             <LINK relation="Definition">
               <FOREIGNID name="Countered attack" mc="Infrastructure.TagType" uid="3268b8f4-f4e7-4899-9341-f1e561a69117"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="c62ae9d5-62d9-4999-94cd-d864c5233cd6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Regular software updates]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="Counter-Measure" mc="Infrastructure.NoteType" uid="8b0986b3-4622-4ba5-86b8-193ea3589f36"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

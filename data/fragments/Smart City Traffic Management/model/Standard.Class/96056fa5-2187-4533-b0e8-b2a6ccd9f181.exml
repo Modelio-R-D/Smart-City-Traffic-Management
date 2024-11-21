@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Attack on Cloud Infrastructure" version="4">
   <OBJECT>
     <ID name="Attack on Cloud Infrastructure" mc="Standard.Class" uid="96056fa5-2187-4533-b0e8-b2a6ccd9f181"/>
-    <PID name="AND" mc="Standard.Class" uid="34983571-6240-4e80-9f0c-bf9fe9102b12"/>
+    <PID name="OR" mc="Standard.Class" uid="8b259c58-122e-4660-b89e-54c06d0b8bc1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,21 +16,21 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="AND" mc="Standard.Class" uid="ac8c8c4c-bbef-4ec6-967e-729019071a76"/>
+        <COMPID name="OR" mc="Standard.Class" uid="1dd7a3f9-41cd-497a-85e5-aca6a84da6d1"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Attack" mc="Infrastructure.Stereotype" uid="02703c05-0dd1-4698-b017-b46d57d79e0e"/>
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="348720d3-9e04-4fe4-aded-be6ae6954b36"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="c76f3cdb-ced2-46a5-9d4e-efcc20fde196"/>
           <ATTRIBUTES>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="AND" mc="Standard.Class" uid="ac8c8c4c-bbef-4ec6-967e-729019071a76"/>
+              <ID name="OR" mc="Standard.Class" uid="1dd7a3f9-41cd-497a-85e5-aca6a84da6d1"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
@@ -160,7 +160,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.TagParameter" uid="47d3b581-8728-4342-9bc7-fedaa1ae8f58"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[false]]></ATT>
+                  <ATT name="Value"><![CDATA[true]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>

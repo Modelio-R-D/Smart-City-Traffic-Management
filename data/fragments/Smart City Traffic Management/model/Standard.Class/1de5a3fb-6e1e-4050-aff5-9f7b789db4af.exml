@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cloud Malware" version="4">
   <OBJECT>
     <ID name="Cloud Malware" mc="Standard.Class" uid="1de5a3fb-6e1e-4050-aff5-9f7b789db4af"/>
-    <PID name="AND" mc="Standard.Class" uid="ac8c8c4c-bbef-4ec6-967e-729019071a76"/>
+    <PID name="OR" mc="Standard.Class" uid="1dd7a3f9-41cd-497a-85e5-aca6a84da6d1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -140,7 +140,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.TagParameter" uid="c7364df9-e384-4f14-8f55-2bfb9bb72fdd"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[false]]></ATT>
+                  <ATT name="Value"><![CDATA[true]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -148,6 +148,22 @@
             </COMP>
             <LINK relation="Definition">
               <FOREIGNID name="Countered attack" mc="Infrastructure.TagType" uid="3268b8f4-f4e7-4899-9341-f1e561a69117"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="e36d6868-f7e5-454a-9675-878d98a67d2d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Intrusion Detection System (IDS)]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="Counter-Measure" mc="Infrastructure.NoteType" uid="8b0986b3-4622-4ba5-86b8-193ea3589f36"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

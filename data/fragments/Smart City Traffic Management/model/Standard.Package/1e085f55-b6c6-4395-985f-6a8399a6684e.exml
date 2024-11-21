@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Threat Model" version="4">
   <OBJECT>
     <ID name="Threat Model" mc="Standard.Package" uid="1e085f55-b6c6-4395-985f-6a8399a6684e"/>
-    <PID name="smart city traffic management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
+    <PID name="Smart City Traffic Management" mc="Standard.Package" uid="309aff8d-7566-41ed-b719-2d0b54f9ff2f"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

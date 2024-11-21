@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AND" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OR" version="4">
   <OBJECT>
-    <ID name="AND" mc="Standard.Class" uid="2ea17ba6-90bb-49f7-a462-5c4049261d36"/>
-    <PID name="Attack on Edge Devices" mc="Standard.Class" uid="ff18d3d5-5b85-4631-8d02-70a40a5fefdc"/>
+    <ID name="OR" mc="Standard.Class" uid="a64791f0-6c99-41ae-ad08-658424711e5a"/>
+    <PID name="Attack on Sensor Network" mc="Standard.Class" uid="4d5e0caa-6bc7-4502-8998-156aa27e5d1a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,28 +11,28 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[AND]]></ATT>
+      <ATT name="Name"><![CDATA[OR]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Zero-Day Exploit" mc="Standard.Class" uid="deba1506-e4ac-4bc0-a6e3-8640eabe1448"/>
-        <COMPID name="Firmware Tampering" mc="Standard.Class" uid="94b42ffd-bc28-4529-8c62-5eceacbea91c"/>
-        <COMPID name="Edge Node DoS" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
+        <COMPID name="Data Spoofing" mc="Standard.Class" uid="73b7afc1-c8e0-44b9-9be8-c9f24f4560ef"/>
+        <COMPID name="Sensor Sniffing" mc="Standard.Class" uid="c3c56b70-e36c-4fcb-adc1-e0492ad462b7"/>
+        <COMPID name="Sensor Disruption" mc="Standard.Class" uid="46d359a2-f6c1-4aef-b70e-109a0dceda15"/>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="AND" mc="Infrastructure.Stereotype" uid="25f299d0-3f80-4347-964f-4a317676e21e"/>
+        <FOREIGNID name="OR" mc="Infrastructure.Stereotype" uid="3664495d-49db-45c1-a18b-4e4e7cb08345"/>
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="712b7839-0257-4196-9f59-8685f24e67c3"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="71b331e8-6ef9-48eb-8f32-c48851948727"/>
           <ATTRIBUTES>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="Zero-Day Exploit" mc="Standard.Class" uid="deba1506-e4ac-4bc0-a6e3-8640eabe1448"/>
+              <ID name="Data Spoofing" mc="Standard.Class" uid="73b7afc1-c8e0-44b9-9be8-c9f24f4560ef"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
@@ -40,14 +40,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="5447212f-ba89-4126-b664-1c78278d5e40"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="420fd1e5-c921-4a99-b84f-54f7a455fb1d"/>
           <ATTRIBUTES>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="Firmware Tampering" mc="Standard.Class" uid="94b42ffd-bc28-4529-8c62-5eceacbea91c"/>
+              <ID name="Sensor Sniffing" mc="Standard.Class" uid="c3c56b70-e36c-4fcb-adc1-e0492ad462b7"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
@@ -55,14 +55,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="fa4d0f65-47d1-4e60-8b23-e235b2f7bd4e"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="7dd013ef-bc56-4a38-81b8-236216a2b94f"/>
           <ATTRIBUTES>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="Edge Node DoS" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
+              <ID name="Sensor Disruption" mc="Standard.Class" uid="46d359a2-f6c1-4aef-b70e-109a0dceda15"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>

@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Man-in-the-Middle (MitM)" version="4">
   <OBJECT>
     <ID name="Man-in-the-Middle (MitM)" mc="Standard.Class" uid="00869707-469f-491e-a1b1-3a071b86587d"/>
-    <PID name="AND" mc="Standard.Class" uid="ac8c8c4c-bbef-4ec6-967e-729019071a76"/>
+    <PID name="OR" mc="Standard.Class" uid="1dd7a3f9-41cd-497a-85e5-aca6a84da6d1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -140,7 +140,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.TagParameter" uid="cff1e863-3b41-492e-b6bb-a4cc942757ac"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[false]]></ATT>
+                  <ATT name="Value"><![CDATA[true]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -148,6 +148,22 @@
             </COMP>
             <LINK relation="Definition">
               <FOREIGNID name="Countered attack" mc="Infrastructure.TagType" uid="3268b8f4-f4e7-4899-9341-f1e561a69117"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="1e916c18-7e62-4fc8-8b21-07ec37527edc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[End-to-end encryption]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="Counter-Measure" mc="Infrastructure.NoteType" uid="8b0986b3-4622-4ba5-86b8-193ea3589f36"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

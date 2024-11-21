@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Attack on Fog Nodes" version="4">
   <OBJECT>
     <ID name="Attack on Fog Nodes" mc="Standard.Class" uid="1559b86c-ab45-456f-91ea-944db9ff713e"/>
-    <PID name="AND" mc="Standard.Class" uid="34983571-6240-4e80-9f0c-bf9fe9102b12"/>
+    <PID name="OR" mc="Standard.Class" uid="8b259c58-122e-4660-b89e-54c06d0b8bc1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,21 +16,21 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="AND" mc="Standard.Class" uid="535f4b45-fbda-49ea-8e9d-66627172b2e5"/>
+        <COMPID name="OR" mc="Standard.Class" uid="dbcd91d0-4ade-44c2-9ee3-8a8a64eb06cb"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Attack" mc="Infrastructure.Stereotype" uid="02703c05-0dd1-4698-b017-b46d57d79e0e"/>
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="5855aaf8-a35b-4d3e-aa7c-8da79b7c75b1"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="b4205f05-35c3-4a6c-9ba7-8f961936e8b5"/>
           <ATTRIBUTES>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="AND" mc="Standard.Class" uid="535f4b45-fbda-49ea-8e9d-66627172b2e5"/>
+              <ID name="OR" mc="Standard.Class" uid="dbcd91d0-4ade-44c2-9ee3-8a8a64eb06cb"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
@@ -160,7 +160,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.TagParameter" uid="99d7e1e3-d681-4222-bd6b-e80117eeefe4"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[false]]></ATT>
+                  <ATT name="Value"><![CDATA[true]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
