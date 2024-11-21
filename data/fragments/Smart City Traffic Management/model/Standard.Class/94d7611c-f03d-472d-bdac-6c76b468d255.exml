@@ -128,9 +128,7 @@
           <ID name="location" mc="Standard.Attribute" uid="e544414b-305b-4292-aa95-28a72883c8e5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[Intersection of Main St. and 1st Ave.
-
-]]></ATT>
+            <ATT name="Value"><![CDATA[Intersection of Main St. and 1st Ave.]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
