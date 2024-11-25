@@ -39,7 +39,7 @@
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -66,7 +66,7 @@
               <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -93,7 +93,7 @@
               <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -120,7 +120,7 @@
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -147,7 +147,7 @@
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -174,7 +174,7 @@
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -201,11 +201,14 @@
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="TConstraint" mc="Infrastructure.Stereotype" uid="78fc63ae-0ad0-45f4-840f-4dbadc0922cb"/>
+              <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="InputParametersType" mc="Infrastructure.Stereotype" uid="66b7f6c7-ee96-4ac8-b237-080d783ac040"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

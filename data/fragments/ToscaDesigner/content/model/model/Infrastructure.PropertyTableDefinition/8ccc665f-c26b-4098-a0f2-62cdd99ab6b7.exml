@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="0f13588e-c9d6-46f6-ac78-882a20356793"/>
+                <ID name="" mc="Infrastructure.Note" uid="6519f89d-4c84-4549-96f9-f4dc84dc907a"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.name.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="11385a57-002f-4ab8-8f96-729a5cc30717"/>
+                <ID name="" mc="Infrastructure.Note" uid="29b49194-c4de-4043-8c0d-e23fc62bcd17"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.inputParameters.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b5525cac-5ee7-4680-985c-d8e64b02c0db"/>
+                <ID name="" mc="Infrastructure.Note" uid="196d789d-774f-4dec-9afa-fa509913a4b7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.outputParameters.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
