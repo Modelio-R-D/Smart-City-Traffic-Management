@@ -16,29 +16,13 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Zero-Day Exploit" mc="Standard.Class" uid="deba1506-e4ac-4bc0-a6e3-8640eabe1448"/>
         <COMPID name="Firmware Tampering" mc="Standard.Class" uid="94b42ffd-bc28-4529-8c62-5eceacbea91c"/>
-        <COMPID name="Edge Node DoS" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
+        <COMPID name="Device tampering" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="OR" mc="Infrastructure.Stereotype" uid="3664495d-49db-45c1-a18b-4e4e7cb08345"/>
       </LINK>
       <COMP relation="DependsOnDependency">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="aa012a85-6064-4d92-9f5c-c1ab4bc52421"/>
-          <ATTRIBUTES>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="DependsOn">
-              <ID name="Zero-Day Exploit" mc="Standard.Class" uid="deba1506-e4ac-4bc0-a6e3-8640eabe1448"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Dependency" uid="14025f22-2319-4638-8836-4af39b729355"/>
           <ATTRIBUTES>
@@ -62,7 +46,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="Edge Node DoS" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
+              <ID name="Device tampering" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>

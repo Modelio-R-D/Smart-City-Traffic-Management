@@ -1,22 +1,24 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Countermeasure Pods" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security Countermeasures Pods" version="4">
   <OBJECT>
-    <ID name="Countermeasure Pods" mc="Standard.Package" uid="2eb12cfc-0f1b-4896-a5c5-f8bb96d8e3d4"/>
-    <PID name="Pods" mc="Standard.Package" uid="28f873b9-0a28-4870-bbc7-fedbe49e2d39"/>
+    <ID name="Security Countermeasures Pods" mc="Standard.Package" uid="2eb12cfc-0f1b-4896-a5c5-f8bb96d8e3d4"/>
+    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Countermeasure Pods]]></ATT>
+      <ATT name="Name"><![CDATA[Security Countermeasures Pods]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="DigitalSignatureVerification" mc="Standard.Class" uid="2520f77a-05ee-458b-88e8-68c9702074db"/>
-        <COMPID name="EncryptionDecription" mc="Standard.Class" uid="3ec65d22-b635-4ad8-a887-e1cdd15ba7f6"/>
+        <COMPID name="EncryptionDecryption" mc="Standard.Class" uid="3ec65d22-b635-4ad8-a887-e1cdd15ba7f6"/>
         <COMPID name="KeyExchangeMechanism" mc="Standard.Class" uid="b5e13dcb-8f9e-45cc-9317-8beb7bdfccc5"/>
+        <COMPID name="AiMalwareDetection" mc="Standard.Class" uid="f6a57408-f253-4edd-a61e-f32a6f7f6114"/>
+        <COMPID name="SideChannelSecureLibrary" mc="Standard.Class" uid="2eb3743e-e12b-4392-a001-7648aa58f608"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>

@@ -156,7 +156,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="2c291710-34b5-4a0e-add9-dd2846758034"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Data Integrity Checks]]></ATT>
+            <ATT name="Content"><![CDATA[Data Integrity Checks through Signature Verification]]></ATT>
             <ATT name="MimeType"></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

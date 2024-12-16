@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Edge Node DoS" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Device tampering" version="4">
   <OBJECT>
-    <ID name="Edge Node DoS" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
+    <ID name="Device tampering" mc="Standard.Class" uid="c2f4a076-f16e-439d-83b0-57cf501d4729"/>
     <PID name="OR" mc="Standard.Class" uid="178da947-7898-4f4b-86bd-238fcc5b1e4e"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Edge Node DoS]]></ATT>
+      <ATT name="Name"><![CDATA[Device tampering]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -156,7 +156,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="94d00f72-0b2b-4e33-850b-f3cce22268af"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Failover mechanisms]]></ATT>
+            <ATT name="Content"><![CDATA[Memory encryption]]></ATT>
             <ATT name="MimeType"></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

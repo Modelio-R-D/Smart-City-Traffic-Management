@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EncryptionDecryption" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SideChannelSecureLibrary" version="4">
   <OBJECT>
-    <ID name="EncryptionDecryption" mc="Standard.Class" uid="3ec65d22-b635-4ad8-a887-e1cdd15ba7f6"/>
+    <ID name="SideChannelSecureLibrary" mc="Standard.Class" uid="2eb3743e-e12b-4392-a001-7648aa58f608"/>
     <PID name="Security Countermeasures Pods" mc="Standard.Package" uid="2eb12cfc-0f1b-4896-a5c5-f8bb96d8e3d4"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[EncryptionDecryption]]></ATT>
+      <ATT name="Name"><![CDATA[SideChannelSecureLibrary]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

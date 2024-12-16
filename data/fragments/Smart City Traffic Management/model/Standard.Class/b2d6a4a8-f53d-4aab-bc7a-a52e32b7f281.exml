@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EdgeCamera4" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AdvancedEdgeCamera4" version="4">
   <OBJECT>
-    <ID name="EdgeCamera4" mc="Standard.Class" uid="b2d6a4a8-f53d-4aab-bc7a-a52e32b7f281"/>
+    <ID name="AdvancedEdgeCamera4" mc="Standard.Class" uid="b2d6a4a8-f53d-4aab-bc7a-a52e32b7f281"/>
     <PID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,16 +11,16 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[EdgeCamera4]]></ATT>
+      <ATT name="Name"><![CDATA[AdvancedEdgeCamera4]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="processingCapability" mc="Standard.Attribute" uid="8583e6f1-c0c4-48bf-ba36-f98a38a63f5d"/>
+          <ID name="processingCapability" mc="Standard.Attribute" uid="5cce75f2-0fdb-495e-99d8-d9c69c0bc89f"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[ARM Cortex-A73, Quad-core 1.4 GHz]]></ATT>
+            <ATT name="Value"><![CDATA[NVIDIA Jetson TX2]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -44,10 +44,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="memory" mc="Standard.Attribute" uid="d5ae2f90-0b95-4b21-bd2a-deba8a7b1e66"/>
+          <ID name="minPowerConsumptionThreshold" mc="Standard.Attribute" uid="bf311291-e2a4-4b9d-8377-f3c3d7408d79"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[2 GB LPDDR4]]></ATT>
+            <ATT name="Value"><![CDATA[5W]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -58,12 +58,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[memory]]></ATT>
+            <ATT name="Name"><![CDATA[minPowerConsumptionThreshold]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
@@ -71,10 +71,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="maxNetworkBandwidth" mc="Standard.Attribute" uid="d854b8d3-72ce-4d06-a50b-e43e4f736cbe"/>
+          <ID name="maxNetworkBandwidth" mc="Standard.Attribute" uid="8d1c9b95-a07d-4ea6-b5d4-d010dfb70ec5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[100 Mbps]]></ATT>
+            <ATT name="Value"><![CDATA[1 Gbps]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -98,37 +98,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="cameraSensorSpec" mc="Standard.Attribute" uid="e62be72f-5831-44e7-ba58-cbd10611a8fa"/>
+          <ID name="location" mc="Standard.Attribute" uid="bbbdec32-a512-46de-882b-e0d62cd9514c"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[1/2.8-inch CMOS, 12 MP, 4K@30fps]]></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[cameraSensorSpec]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="location" mc="Standard.Attribute" uid="6aa61150-36e3-4ee0-aca4-28682fdd8984"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[Intersection of Main St. and 1st Ave.]]></ATT>
+            <ATT name="Value"><![CDATA[Intersection of Main St. and 1st Ave.
+]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -152,10 +126,64 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="maxPowerConsumptionThreshold" mc="Standard.Attribute" uid="0dbb3496-b965-418e-b428-2e4b3ee85813"/>
+          <ID name="memory" mc="Standard.Attribute" uid="c2ee5c4c-25cd-444b-8efc-0b9cff04d003"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[11.5W]]></ATT>
+            <ATT name="Value"><![CDATA[4 GB LPDDR4]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[memory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="cameraSensorSpec" mc="Standard.Attribute" uid="9c951999-ec55-4a97-afb8-91ef63143e71"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[1/1.8-inch CMOS, 20 MP, 4K@60fps]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[cameraSensorSpec]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="maxPowerConsumptionThreshold" mc="Standard.Attribute" uid="4a387e2b-6762-4caf-93a5-afb0b6eb99f8"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[20W]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -179,10 +207,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="baselineAveragePowerConsumption" mc="Standard.Attribute" uid="9f6b4d5a-6082-4998-ba14-3f956fa6c4c8"/>
+          <ID name="baselineAveragePowerConsumption" mc="Standard.Attribute" uid="04cb23f3-12e1-43ce-accd-9aa80d54e23a"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[4.5W]]></ATT>
+            <ATT name="Value"><![CDATA[8W]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -206,10 +234,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="highCpuThreshold" mc="Standard.Attribute" uid="8ef05628-f742-4dfb-8630-b3d81acc2919"/>
+          <ID name="highCpuThreshold" mc="Standard.Attribute" uid="c1f857ea-1ff2-4396-8e9e-05cbcb9bd168"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[0.7]]></ATT>
+            <ATT name="Value"><![CDATA[0.8]]></ATT>
             <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -221,33 +249,6 @@
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[highCpuThreshold]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="minPowerConsumptionThreshold" mc="Standard.Attribute" uid="00d527bb-0487-46f3-9b0c-5f9e8c33ecb6"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"><![CDATA[3.5W]]></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[minPowerConsumptionThreshold]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

@@ -156,7 +156,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="e36d6868-f7e5-454a-9675-878d98a67d2d"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Intrusion Detection System (IDS)]]></ATT>
+            <ATT name="Content"><![CDATA[Malware Detection by AI]]></ATT>
             <ATT name="MimeType"></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

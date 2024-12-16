@@ -18,6 +18,7 @@
         <COMPID name="[Pod]ImageProcessing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
         <COMPID name="[Pod]ObjectTracking" mc="Standard.Class" uid="934853b0-f10c-409b-810c-98c31755b99e"/>
         <COMPID name="[Pod]TrafficDataAnalysis" mc="Standard.Class" uid="d8660708-148e-40f8-9e6b-f10d76a079fa"/>
+        <COMPID name="[Pod]SecurityCountermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>

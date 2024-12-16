@@ -16,7 +16,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Attack on Fog Nodes" mc="Standard.Class" uid="1559b86c-ab45-456f-91ea-944db9ff713e"/>
         <COMPID name="Attack on Edge Devices" mc="Standard.Class" uid="ff18d3d5-5b85-4631-8d02-70a40a5fefdc"/>
         <COMPID name="Attack on Sensor Network" mc="Standard.Class" uid="4d5e0caa-6bc7-4502-8998-156aa27e5d1a"/>
         <COMPID name="Attack on Cloud Infrastructure" mc="Standard.Class" uid="96056fa5-2187-4533-b0e8-b2a6ccd9f181"/>
@@ -25,21 +24,6 @@
         <FOREIGNID name="OR" mc="Infrastructure.Stereotype" uid="3664495d-49db-45c1-a18b-4e4e7cb08345"/>
       </LINK>
       <COMP relation="DependsOnDependency">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="c62572e1-cc17-4a47-aa7e-5ac04ccf396f"/>
-          <ATTRIBUTES>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="DependsOn">
-              <ID name="Attack on Fog Nodes" mc="Standard.Class" uid="1559b86c-ab45-456f-91ea-944db9ff713e"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="Connection" mc="Infrastructure.Stereotype" uid="040af89d-22db-4117-acb5-e9ae7f333c60"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Dependency" uid="d4683702-1377-4584-a989-65d5c55760d2"/>
           <ATTRIBUTES>

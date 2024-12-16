@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EncryptionDecryption" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="[Pod]SecurityCountermeasure" version="4">
   <OBJECT>
-    <ID name="EncryptionDecryption" mc="Standard.Class" uid="3ec65d22-b635-4ad8-a887-e1cdd15ba7f6"/>
-    <PID name="Security Countermeasures Pods" mc="Standard.Package" uid="2eb12cfc-0f1b-4896-a5c5-f8bb96d8e3d4"/>
+    <ID name="[Pod]SecurityCountermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
+    <PID name="Pods" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,12 +11,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[EncryptionDecryption]]></ATT>
+      <ATT name="Name"><![CDATA[[Pod]SecurityCountermeasure]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
-        <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
+        <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EdgeCamera1" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BasicEdgeCamera1" version="4">
   <OBJECT>
-    <ID name="EdgeCamera1" mc="Standard.Class" uid="94d7611c-f03d-472d-bdac-6c76b468d255"/>
+    <ID name="BasicEdgeCamera1" mc="Standard.Class" uid="94d7611c-f03d-472d-bdac-6c76b468d255"/>
     <PID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[EdgeCamera1]]></ATT>
+      <ATT name="Name"><![CDATA[BasicEdgeCamera1]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -343,7 +343,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="d16e4793-db15-4306-a5ba-d8a6cca06cb0"/>
+          <ID name="connectedTo" mc="Standard.AssociationEnd" uid="d16e4793-db15-4306-a5ba-d8a6cca06cb0"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -356,7 +356,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[connectedTo]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -383,7 +383,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="d16e4793-db15-4306-a5ba-d8a6cca06cb0"/>
+                    <COMPID name="connectedTo" mc="Standard.AssociationEnd" uid="d16e4793-db15-4306-a5ba-d8a6cca06cb0"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>

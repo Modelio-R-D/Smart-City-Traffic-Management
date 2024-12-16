@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sensor Disruption" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Compromise Physical Security" version="4">
   <OBJECT>
-    <ID name="Sensor Disruption" mc="Standard.Class" uid="46d359a2-f6c1-4aef-b70e-109a0dceda15"/>
+    <ID name="Compromise Physical Security" mc="Standard.Class" uid="46d359a2-f6c1-4aef-b70e-109a0dceda15"/>
     <PID name="OR" mc="Standard.Class" uid="a64791f0-6c99-41ae-ad08-658424711e5a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sensor Disruption]]></ATT>
+      <ATT name="Name"><![CDATA[Compromise Physical Security]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -156,7 +156,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="913c57cb-cc40-4f16-ac35-f3adfbc184db"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Physical security]]></ATT>
+            <ATT name="Content"><![CDATA[Side channel Secure Library]]></ATT>
             <ATT name="MimeType"></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EdgeCamera2" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BasicEdgeCamera2" version="4">
   <OBJECT>
-    <ID name="EdgeCamera2" mc="Standard.Class" uid="e7490de4-ca37-48af-aba5-cf16b9cf7dcd"/>
+    <ID name="BasicEdgeCamera2" mc="Standard.Class" uid="e7490de4-ca37-48af-aba5-cf16b9cf7dcd"/>
     <PID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[EdgeCamera2]]></ATT>
+      <ATT name="Name"><![CDATA[BasicEdgeCamera2]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
