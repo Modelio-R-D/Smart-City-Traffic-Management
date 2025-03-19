@@ -1,6 +1,6 @@
-#Wed Mar 19 08:41:43 CET 2025
+#Wed Mar 19 09:00:20 CET 2025
 org.modelio.app.module.propertytab.GModule\ [id\='CPSwarm',\ version\='3.10.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_CPSwarmPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.development.perspective.parentId=PartStack@3f1e530c
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.trace.perspective.parentId=app.ui.ext_com.partstack.left
 org.modelio.app.module.propertytab.GModule\ [id\='AttackTreeDesigner',\ version\='2.0.01',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_Attack_Tree.org.modelio.trace.perspective.parentId=app.ui.ext_com.partstack.left
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
@@ -23,6 +23,5 @@ org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.com.modeliosoft.modelio.archimate.perspective.parentId=archimate.ui.partstack.bottom
 org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.diagram.editor.OpenedDiagrams1='Service Template diagram' {75a3956c-36d5-4fe4-b56d-a53bf64d4c7c} Standard.StaticDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Tree Diagram' {2c99ceda-e187-4305-8340-43f030f77d4b} Standard.ClassDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='CPSwarm',\ version\='3.10.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_CPSwarmPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
 org.modelio.app.module.propertytab.GModule\ [id\='ToscaDesigner',\ version\='0.0.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_ToscaPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
