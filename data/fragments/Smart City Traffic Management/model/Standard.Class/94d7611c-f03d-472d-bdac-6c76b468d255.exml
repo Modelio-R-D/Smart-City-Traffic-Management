@@ -414,6 +414,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Capabilities" mc="Standard.Class" uid="78c1e0ff-a226-499d-926d-99705a810187"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
       </LINK>

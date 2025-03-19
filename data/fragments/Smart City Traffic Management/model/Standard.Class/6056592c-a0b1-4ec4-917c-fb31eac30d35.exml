@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="advancedDataAnalysis" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="host" version="4">
   <OBJECT>
-    <ID name="advancedDataAnalysis" mc="Standard.Class" uid="6056592c-a0b1-4ec4-917c-fb31eac30d35"/>
+    <ID name="host" mc="Standard.Class" uid="6056592c-a0b1-4ec4-917c-fb31eac30d35"/>
     <PID name="Capabilities" mc="Standard.Class" uid="f7375eef-b29b-4853-ab41-ec9de2615777"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[advancedDataAnalysis]]></ATT>
+      <ATT name="Name"><![CDATA[host]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

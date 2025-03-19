@@ -16,10 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="dataFusion" mc="Standard.Class" uid="37af59e7-1605-4b64-9f43-177dac51cdb5"/>
-        <COMPID name="dataAnalysis" mc="Standard.Class" uid="b2c9d625-cd46-4d01-b8f5-f01d57b5d7d9"/>
-        <COMPID name="taskOffloading" mc="Standard.Class" uid="4273ebf8-f9ea-4ff8-af8c-f9e426be82a8"/>
-        <COMPID name="trafficInformationDissemination" mc="Standard.Class" uid="e6ad2f20-fa83-44f6-87d6-15d73cf4fb57"/>
+        <COMPID name="host" mc="Standard.Class" uid="37af59e7-1605-4b64-9f43-177dac51cdb5"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TCapabilityDefinitionsType" mc="Infrastructure.Stereotype" uid="ac0418b1-a726-46e6-ac59-310f0055050f"/>

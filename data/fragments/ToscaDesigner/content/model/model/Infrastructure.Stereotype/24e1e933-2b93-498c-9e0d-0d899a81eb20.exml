@@ -4,8 +4,8 @@
     <ID name="TOperation" mc="Infrastructure.Stereotype" uid="24e1e933-2b93-498c-9e0d-0d899a81eb20"/>
     <PID name="Tosca" mc="Infrastructure.Profile" uid="052601e7-dbd7-42a1-9f15-ca5eaf0707f8"/>
     <ATTRIBUTES>
-      <ATT name="Image"></ATT>
-      <ATT name="Icon"></ATT>
+      <ATT name="Image"><![CDATA[res/icon/gui/TOperation48.IMAGE.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/icon/gui/TOperation24.ICON.png]]></ATT>
       <ATT name="IsHidden">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="LabelKey"><![CDATA[%stereotype.TOperation.label]]></ATT>

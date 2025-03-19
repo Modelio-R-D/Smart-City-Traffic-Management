@@ -97,6 +97,8 @@
         <COMPID name="TargetInterfacesType" mc="Infrastructure.Stereotype" uid="0b8a60bc-b7c2-43a8-8c93-f8be7f724b60"/>
         <COMPID name="ToscaElement" mc="Infrastructure.Stereotype" uid="11eac153-1560-420f-a4f6-f5387b6c8a98"/>
         <COMPID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>
+        <COMPID name="Trigger" mc="Infrastructure.Stereotype" uid="d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3"/>
+        <COMPID name="CapabilityStereotype" mc="Infrastructure.Stereotype" uid="54f6e81a-afca-4381-aad4-5cf823fcf192"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -16,11 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="advancedDataAnalysis" mc="Standard.Class" uid="6056592c-a0b1-4ec4-917c-fb31eac30d35"/>
-        <COMPID name="machineLearning" mc="Standard.Class" uid="5f001626-5900-4615-89ba-12e1391ec50a"/>
-        <COMPID name="decisionMaking" mc="Standard.Class" uid="5034ec43-8188-4fd7-9e15-a75586402a59"/>
-        <COMPID name="storage" mc="Standard.Class" uid="d172ee66-c66f-4c88-a4c4-03aee06dcdf7"/>
-        <COMPID name="trafficInformationDissemination" mc="Standard.Class" uid="e8148760-4d8b-4f22-a5c7-e0eb3f8ed492"/>
+        <COMPID name="host" mc="Standard.Class" uid="6056592c-a0b1-4ec4-917c-fb31eac30d35"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TCapabilityDefinitionsType" mc="Infrastructure.Stereotype" uid="ac0418b1-a726-46e6-ac59-310f0055050f"/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Capabilities" version="4">
+  <OBJECT>
+    <ID name="Capabilities" mc="Standard.Class" uid="1f4ae740-d2ee-4226-9d00-56731b9d6870"/>
+    <PID name="CloudInstance1" mc="Standard.Class" uid="45c8ec75-612e-4622-b3ec-5f5085c1bd2e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Capabilities]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="host" mc="Standard.Class" uid="92139e0e-b1d9-444d-b492-754b28a1b8d0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilitiesType" mc="Infrastructure.Stereotype" uid="37787f67-5e3f-4ce9-93fc-cc3101d5cb6f"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

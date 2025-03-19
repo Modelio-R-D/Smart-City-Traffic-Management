@@ -154,7 +154,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="00624b21-04aa-4304-83ea-3e91a2c09a95"/>
+          <ID name="connectedTo" mc="Standard.AssociationEnd" uid="00624b21-04aa-4304-83ea-3e91a2c09a95"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -167,7 +167,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[connectedTo]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -194,7 +194,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="00624b21-04aa-4304-83ea-3e91a2c09a95"/>
+                    <COMPID name="connectedTo" mc="Standard.AssociationEnd" uid="00624b21-04aa-4304-83ea-3e91a2c09a95"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -224,6 +224,9 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Capabilities" mc="Standard.Class" uid="4426a1aa-63e7-4765-bdaf-c99317d37b55"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>

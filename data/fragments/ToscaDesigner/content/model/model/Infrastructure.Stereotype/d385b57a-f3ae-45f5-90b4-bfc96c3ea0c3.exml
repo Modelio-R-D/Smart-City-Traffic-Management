@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Trigger" version="4">
+  <OBJECT>
+    <ID name="Trigger" mc="Infrastructure.Stereotype" uid="d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3"/>
+    <PID name="Tosca" mc="Infrastructure.Profile" uid="052601e7-dbd7-42a1-9f15-ca5eaf0707f8"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/icon/gui/Trigger48.IMAGE.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/icon/gui/Trigger24.ICON.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Trigger.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Class]]></ATT>
+      <ATT name="Name"><![CDATA[Trigger]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TriggerTable" mc="Infrastructure.PropertyTableDefinition" uid="79e95ecd-2038-452e-89c3-8fb65ecf1363"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

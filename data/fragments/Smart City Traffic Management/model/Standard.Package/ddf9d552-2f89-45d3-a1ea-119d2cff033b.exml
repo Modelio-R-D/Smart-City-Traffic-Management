@@ -15,7 +15,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Inputs" mc="Standard.Class" uid="8f080442-c831-456e-8769-5d26a2d00c4a"/>
-        <COMPID name="Policies" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
+        <COMPID name="Policies (old)" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
+        <COMPID name="Policies (new)" mc="Standard.Class" uid="961c6a84-cf74-4565-923d-f40378e2ec39"/>
         <COMPID name="Constraints" mc="Standard.Class" uid="24dbd55c-f795-4077-956b-983075f06362"/>
         <COMPID name="Deployment Rules" mc="Standard.Package" uid="eb5b7038-b44d-4bf4-afec-b10e934b6419"/>
         <COMPID name="Workers" mc="Standard.Package" uid="6f9c38f0-e198-441d-87d8-bd100be86889"/>

@@ -17,6 +17,9 @@
       <COMP relation="DefinedTable">
         <COMPID name="TCapabilityDefinitionTable" mc="Infrastructure.PropertyTableDefinition" uid="e2b2d181-f6b2-4a51-81dc-df962e137ef2"/>
       </COMP>
+      <LINK relation="Parent">
+        <ID name="CapabilityStereotype" mc="Infrastructure.Stereotype" uid="54f6e81a-afca-4381-aad4-5cf823fcf192"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

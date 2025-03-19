@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Capabilities" version="4">
+  <OBJECT>
+    <ID name="Capabilities" mc="Standard.Class" uid="fc3a5ef7-0eea-4b5d-ab13-d7f66ef63b14"/>
+    <PID name="AdvancedEdgeCamera3" mc="Standard.Class" uid="c9a7db77-9165-47e1-bbf1-974337aee939"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Capabilities]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="host" mc="Standard.Class" uid="2a6b2168-4074-4547-bc75-a733446a93cb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilitiesType" mc="Infrastructure.Stereotype" uid="37787f67-5e3f-4ce9-93fc-cc3101d5cb6f"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

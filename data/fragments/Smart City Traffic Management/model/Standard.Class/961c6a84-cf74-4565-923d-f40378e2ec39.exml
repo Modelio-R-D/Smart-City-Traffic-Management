@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Policies" version="4">
+  <OBJECT>
+    <ID name="Policies" mc="Standard.Class" uid="961c6a84-cf74-4565-923d-f40378e2ec39"/>
+    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Policies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Edge Resource Efficiency" mc="Standard.Class" uid="956f8698-7436-4515-af21-692cd822b184"/>
+        <COMPID name="Fog Resource Efficiency" mc="Standard.Class" uid="740e6f02-59aa-4fd4-9b46-7ea9dd7ba435"/>
+        <COMPID name="Network Bandwidth Management" mc="Standard.Class" uid="d3a3971b-cebe-45eb-8a1f-a7910377f259"/>
+        <COMPID name="Edge Power Optimization" mc="Standard.Class" uid="a77f642c-0e1e-464b-a157-254e7df44f57"/>
+        <COMPID name="Fog Power Optimization" mc="Standard.Class" uid="89700e4e-bf02-4fe4-ab2e-394633f04ed7"/>
+        <COMPID name="Real-time Object Detection" mc="Standard.Class" uid="b7cf7492-a961-4f05-8cf2-a0f487741d9e"/>
+        <COMPID name="Rapid Situation Assessment" mc="Standard.Class" uid="97197546-afcd-4c3d-8aec-659fc469502a"/>
+        <COMPID name="Timely Communication" mc="Standard.Class" uid="58b32407-a6ce-4dbd-94fa-3efb74632024"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="PoliciesType" mc="Infrastructure.Stereotype" uid="205759e2-44bb-4cb3-b19e-8cfbed4f9435"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

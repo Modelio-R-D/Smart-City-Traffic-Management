@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Policies" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
   <OBJECT>
-    <ID name="Policies" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
+    <ID name="Requirements" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
     <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Policies]]></ATT>
+      <ATT name="Name"><![CDATA[Requirements]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
