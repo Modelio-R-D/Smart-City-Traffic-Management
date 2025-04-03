@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policies" version="4">
+  <OBJECT>
+    <ID name="policies" mc="Standard.Package" uid="20bfa0ec-f45f-4b02-b15e-eb48db6f2fb3"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Root" mc="Standard.Class" uid="9d6243f4-ca8d-4f59-bfe2-3cfc31551792"/>
+        <COMPID name="Placement" mc="Standard.Class" uid="a9a8eaea-56df-4feb-8a00-50365920a7e8"/>
+        <COMPID name="Scaling" mc="Standard.Class" uid="27214852-0011-4fe9-8781-86241bd5833e"/>
+        <COMPID name="Update" mc="Standard.Class" uid="6d6bf254-3527-49c3-b6c8-487f2a20c4c7"/>
+        <COMPID name="Performance" mc="Standard.Class" uid="0c666064-29d1-4e91-8222-63095f528766"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

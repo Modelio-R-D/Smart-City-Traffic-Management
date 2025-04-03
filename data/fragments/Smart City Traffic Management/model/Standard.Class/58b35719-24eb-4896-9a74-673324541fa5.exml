@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="[Pod]SecurityCountermeasure" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="security_countermeasure" version="4">
   <OBJECT>
-    <ID name="[Pod]SecurityCountermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
-    <PID name="Pods" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
+    <ID name="security_countermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
+    <PID name="software_component_nodes" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,54 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[[Pod]SecurityCountermeasure]]></ATT>
+      <ATT name="Name"><![CDATA[security_countermeasure]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="derivedFrom" mc="Infrastructure.Dependency" uid="fd0e0c89-c71b-418d-af45-6d09d3c795b1"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[derivedFrom]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <FOREIGNID name="SoftwareComponent" mc="Standard.Class" uid="d08da84f-84f8-4c88-916b-cf59b2b69774"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="9b32e47c-5f6e-457d-a996-d0f33cd9bfd4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="13e6499a-6316-45c7-ad79-e58014abe101"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[derivedFrom]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

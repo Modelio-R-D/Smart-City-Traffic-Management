@@ -9,7 +9,7 @@
       <ATT name="IsHidden">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="LabelKey"><![CDATA[%stereotype.TDeploymentArtifact.label]]></ATT>
-      <ATT name="BaseClassName"><![CDATA[Standard.Attribute]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Class]]></ATT>
       <ATT name="Name"><![CDATA[TDeploymentArtifact]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>

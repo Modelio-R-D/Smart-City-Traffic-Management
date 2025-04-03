@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pods" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="software_component_nodes" version="4">
   <OBJECT>
-    <ID name="Pods" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
+    <ID name="software_component_nodes" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
     <PID name="Service Template" mc="Standard.Package" uid="f60aea26-1149-4aff-b2db-24caee96b7ba"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Pods]]></ATT>
+      <ATT name="Name"><![CDATA[software_component_nodes]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="File" version="4">
+  <OBJECT>
+    <ID name="File" mc="Standard.Class" uid="c97c4844-b16d-4e32-930c-05ab54f348ef"/>
+    <PID name="artifacts" mc="Standard.Package" uid="ff1f0cc7-4156-41d1-8385-6ac07d9c4f21"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[File]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="3b438f34-a345-446c-9548-e1393aedec0b"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Root" mc="Standard.Class" uid="4305b019-c0b4-46f6-b993-bd4ecccbc4a8"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TArtifactType" mc="Infrastructure.Stereotype" uid="08c1d0af-1987-4d3f-8dda-3b28c1aadcb9"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

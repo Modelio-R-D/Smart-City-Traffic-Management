@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="network" version="4">
+  <OBJECT>
+    <ID name="network" mc="Standard.Class" uid="da240d51-f221-4dd1-bcf5-bbd1600e67a4"/>
+    <PID name="capabilities" mc="Standard.Package" uid="0f00be29-5fc7-44e0-981c-d0e627525d5d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[network]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bindable" mc="Standard.Class" uid="52e2beb1-3116-45fc-a66f-3572ea6add58"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TGroupType" mc="Infrastructure.Stereotype" uid="94a5619a-6aed-4b34-a0d8-03e85419ad55"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

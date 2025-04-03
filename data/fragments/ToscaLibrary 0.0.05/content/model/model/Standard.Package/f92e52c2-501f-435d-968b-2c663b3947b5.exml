@@ -1,0 +1,392 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="scalar_datatypes" version="4">
+  <OBJECT>
+    <ID name="scalar_datatypes" mc="Standard.Package" uid="f92e52c2-501f-435d-968b-2c663b3947b5"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[scalar_datatypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="scalar_unit.size" mc="Standard.DataType" uid="35427e28-3b17-4419-98da-0873868d4ea5"/>
+        <OBJECT>
+          <ID name="size_units" mc="Standard.Enumeration" uid="b84f359a-070f-4de0-a8c6-a3959ef42076"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[size_units]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="B" mc="Standard.EnumerationLiteral" uid="fffb1464-0396-4dbd-baf1-504fe6a96d89"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[B]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="kB" mc="Standard.EnumerationLiteral" uid="669c6fd5-fbc1-4b6a-a470-318846e6757c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[kB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="KiB" mc="Standard.EnumerationLiteral" uid="90a7237c-010c-48a0-a1d6-131992509cd5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[KiB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MB" mc="Standard.EnumerationLiteral" uid="5e1a0c88-66e4-4582-a061-b42c9a5ed924"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MiB" mc="Standard.EnumerationLiteral" uid="2c1b3ffc-316e-46ed-a6aa-e1256a2b7379"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MiB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GB" mc="Standard.EnumerationLiteral" uid="3f9c7605-eb53-4171-9d6f-712a344e8156"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GiB" mc="Standard.EnumerationLiteral" uid="b30b548b-c75b-482a-9b87-049ba65b03d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GiB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="TB" mc="Standard.EnumerationLiteral" uid="374a8389-4d1f-4846-94f1-9851f35738a9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="TiB" mc="Standard.EnumerationLiteral" uid="3b5278e3-6a75-49cd-a5d9-e6940654280c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TiB]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="scalar_unit.time" mc="Standard.DataType" uid="424e83ac-6317-4c76-a039-5686426abd42"/>
+        <COMPID name="scalar_unit.frequency" mc="Standard.DataType" uid="4aa2d68e-8e8c-4b5c-ae7d-cdb4a7af6e7d"/>
+        <COMPID name="scalar_unit.bitrate" mc="Standard.DataType" uid="dd1830b5-184a-4ccf-93c3-bd73fa8cbf55"/>
+        <OBJECT>
+          <ID name="time_units" mc="Standard.Enumeration" uid="734d4204-0ffa-4283-9483-27fd0c0a9008"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[time_units]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="d" mc="Standard.EnumerationLiteral" uid="27e4c3f9-86e2-482e-bce8-2057c59f1b47"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[d]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="h" mc="Standard.EnumerationLiteral" uid="11613853-4af8-4180-b41a-fa04c733bc48"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[h]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="m" mc="Standard.EnumerationLiteral" uid="7d5e30a0-519f-4756-96a4-08a7953a91d4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[m]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="s" mc="Standard.EnumerationLiteral" uid="27d399c5-157c-4904-8302-e74328091ce9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[s]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ms" mc="Standard.EnumerationLiteral" uid="ad7772b8-11c2-4822-9ffa-a2f712e65c01"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ms]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="us" mc="Standard.EnumerationLiteral" uid="9faaefe9-49de-4464-9b94-1eda276310db"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[us]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ns" mc="Standard.EnumerationLiteral" uid="1160120b-1f53-4efc-9e15-4be1aee57f5f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ns]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="frequency_units" mc="Standard.Enumeration" uid="c1f6672d-9aeb-40b0-a110-b66cfd7e222a"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[frequency_units]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Hz" mc="Standard.EnumerationLiteral" uid="24954b25-b134-4af7-8a1d-3eeac78c7ae8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Hz]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="kHz" mc="Standard.EnumerationLiteral" uid="f9001e0a-8c87-47c6-8c4c-3bcf7eb30f6c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[kHz]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MHz" mc="Standard.EnumerationLiteral" uid="f4c657f8-bf05-4144-b19b-41b3edb74a52"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MHz]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GHz" mc="Standard.EnumerationLiteral" uid="c7a91135-8297-4701-b0c2-873dd51cc1f4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GHz]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="bitrate_units" mc="Standard.Enumeration" uid="4a20f921-63e4-43db-b61c-7d9edd083067"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[bitrate_units]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="bps" mc="Standard.EnumerationLiteral" uid="6cd0a14f-ba5c-472f-91c2-7d1d6e79bf96"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[bps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Kbps" mc="Standard.EnumerationLiteral" uid="e8e2a02b-1f5a-421e-bd0b-4b66afc59ca9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Kbps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Kibps" mc="Standard.EnumerationLiteral" uid="88506e3b-d3dc-4636-a71c-1bcfdb5c9684"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Kibps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Mbps" mc="Standard.EnumerationLiteral" uid="69dc3f70-ed8d-4d05-a505-639cb7d73242"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Mbps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Mibps" mc="Standard.EnumerationLiteral" uid="c5ec35eb-b72d-4458-9bbc-f9f8023a3897"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Mibps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Gbps" mc="Standard.EnumerationLiteral" uid="17eeaa8f-2799-462c-b644-0046df730fd3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Gbps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Gibps" mc="Standard.EnumerationLiteral" uid="6a3b0156-d565-4d53-a746-62baac2f3608"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Gibps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Tbps" mc="Standard.EnumerationLiteral" uid="1dda9b54-18f2-4c30-a3d4-2cf2b3f5d152"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Tbps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Tibps" mc="Standard.EnumerationLiteral" uid="362bec02-825f-4db9-a2b3-1e212b2aa025"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Tibps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Bps" mc="Standard.EnumerationLiteral" uid="7ee41f7f-c823-434b-bfc4-b213893403d1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Bps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="KBps" mc="Standard.EnumerationLiteral" uid="5949a754-07a8-44a3-b231-6574b6e80b30"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[KBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="KiBps" mc="Standard.EnumerationLiteral" uid="0d87ea63-516e-46bc-903a-fa18e5649bac"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[KiBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MBps" mc="Standard.EnumerationLiteral" uid="d5dd0f80-6b5d-4957-a9c6-7b35f290e040"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MiBps" mc="Standard.EnumerationLiteral" uid="a497cb6d-74df-41e3-9c50-d546acbd8d2d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MiBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GBps" mc="Standard.EnumerationLiteral" uid="7d585970-93fc-4067-9832-ae9f21a3e0e7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GiBps" mc="Standard.EnumerationLiteral" uid="f66a6706-34f7-4112-ae3d-8642b9a669f9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GiBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="TBps" mc="Standard.EnumerationLiteral" uid="645c8c8c-919b-4007-b125-c116adb9388a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="TiBps" mc="Standard.EnumerationLiteral" uid="95fd1512-28ee-404a-9a1e-9be76eb00480"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TiBps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

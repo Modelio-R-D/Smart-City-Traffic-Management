@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="artifacts" version="4">
+  <OBJECT>
+    <ID name="artifacts" mc="Standard.Package" uid="ff1f0cc7-4156-41d1-8385-6ac07d9c4f21"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[artifacts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Root" mc="Standard.Class" uid="4305b019-c0b4-46f6-b993-bd4ecccbc4a8"/>
+        <COMPID name="File" mc="Standard.Class" uid="c97c4844-b16d-4e32-930c-05ab54f348ef"/>
+        <COMPID name="Deployment" mc="Standard.Class" uid="c9dec298-4c49-4d57-95c6-9d3de326fe3c"/>
+        <COMPID name="Deployment.Image" mc="Standard.Class" uid="0ad4ccbd-fa4c-48d9-bb03-07812d7cda26"/>
+        <COMPID name="Deployment.Image.VM" mc="Standard.Class" uid="6a58b8da-a8cf-4584-bfda-83783f90c9e8"/>
+        <COMPID name="Deployment.Image.Container.Docker" mc="Standard.Class" uid="023a4613-29b5-4bb5-901a-4d9d8142fb2f"/>
+        <COMPID name="Implementation" mc="Standard.Class" uid="f8de8a81-de25-41ca-9ed9-f2363d3b0696"/>
+        <COMPID name="Implementation.Bash" mc="Standard.Class" uid="583faf77-f73c-43a2-8946-c6abc845e0d6"/>
+        <COMPID name="Implementation.Python" mc="Standard.Class" uid="7bf1f7f2-0095-4516-ba79-428e6cf70c15"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

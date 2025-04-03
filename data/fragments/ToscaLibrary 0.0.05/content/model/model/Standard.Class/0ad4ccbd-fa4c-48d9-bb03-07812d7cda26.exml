@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deployment.Image" version="4">
+  <OBJECT>
+    <ID name="Deployment.Image" mc="Standard.Class" uid="0ad4ccbd-fa4c-48d9-bb03-07812d7cda26"/>
+    <PID name="artifacts" mc="Standard.Package" uid="ff1f0cc7-4156-41d1-8385-6ac07d9c4f21"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Deployment.Image]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="d0715859-263f-4c8a-bc30-c702b799d0fb"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Deployment" mc="Standard.Class" uid="c9dec298-4c49-4d57-95c6-9d3de326fe3c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TArtifactType" mc="Infrastructure.Stereotype" uid="08c1d0af-1987-4d3f-8dda-3b28c1aadcb9"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="requirements" version="4">
+  <OBJECT>
+    <ID name="requirements" mc="Standard.Class" uid="c1f586b2-c082-4644-b339-cfa498060a66"/>
+    <PID name="Container.Application" mc="Standard.Class" uid="b3d5d942-ef0b-453e-9dcc-0d1eada74498"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[requirements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="host" mc="Standard.Class" uid="821a0877-bb27-4dc3-a1e2-802d308458cc"/>
+        <COMPID name="storage" mc="Standard.Class" uid="3f432d9d-bd99-4d36-87d2-e5e3e1f1466f"/>
+        <COMPID name="network" mc="Standard.Class" uid="72fec1ee-965c-4b56-84d6-67d0ee683270"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRequirementDefinitionType" mc="Infrastructure.Stereotype" uid="622c76d1-f337-471e-984a-2af659417163"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

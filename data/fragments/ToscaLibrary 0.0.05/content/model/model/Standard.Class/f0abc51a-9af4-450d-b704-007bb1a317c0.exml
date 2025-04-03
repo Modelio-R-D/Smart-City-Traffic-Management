@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Container" version="4">
+  <OBJECT>
+    <ID name="Container" mc="Standard.Class" uid="f0abc51a-9af4-450d-b704-007bb1a317c0"/>
+    <PID name="compute" mc="Standard.Class" uid="f2fc427f-2810-4919-8840-bf25f4e9c25d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Container]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityType" mc="Infrastructure.Stereotype" uid="42438c96-0721-406a-a8b9-c4a85931cc60"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<ram-component manifest-version="2.0.02" name="ToscaLibrary" version="0" release="0" clevel="5" modelioVersion="5.4.01" provider="">
+  <description><![CDATA[]]></description>
+  <dependencies></dependencies>
+  <contributors>
+    <contributor name="ModelerModule" version="9.4.00"/>
+    <contributor name="ToscaDesigner" version="0.0.00"/>
+  </contributors>
+  <metamodels>
+    <metamodel name="Standard" version="2.3.00"/>
+    <metamodel name="Infrastructure" version="2.1.04"/>
+  </metamodels>
+  <roots>
+    <root metaclass="Standard.Project" name="UML-BPMN" uuid="7e58ef11-c0b1-4d8f-8136-0a59ffb55bea"/>
+  </roots>
+</ram-component>

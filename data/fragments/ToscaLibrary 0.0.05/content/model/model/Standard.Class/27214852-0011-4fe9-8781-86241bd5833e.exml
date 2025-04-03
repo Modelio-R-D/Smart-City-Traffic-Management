@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Scaling" version="4">
+  <OBJECT>
+    <ID name="Scaling" mc="Standard.Class" uid="27214852-0011-4fe9-8781-86241bd5833e"/>
+    <PID name="policies" mc="Standard.Package" uid="20bfa0ec-f45f-4b02-b15e-eb48db6f2fb3"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Scaling]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="9d1b42ba-9219-4314-aa44-ccd858289946"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Root" mc="Standard.Class" uid="9d6243f4-ca8d-4f59-bfe2-3cfc31551792"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TPolicyType" mc="Infrastructure.Stereotype" uid="b76dbc7d-8b6f-46f8-89d4-f0ea8eea40d2"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

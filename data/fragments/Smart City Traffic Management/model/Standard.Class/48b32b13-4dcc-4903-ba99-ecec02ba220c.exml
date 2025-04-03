@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="[Worker]EdgeCamera" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EdgeCamera" version="4">
   <OBJECT>
-    <ID name="[Worker]EdgeCamera" mc="Standard.Class" uid="48b32b13-4dcc-4903-ba99-ecec02ba220c"/>
-    <PID name="Workers" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
+    <ID name="EdgeCamera" mc="Standard.Class" uid="48b32b13-4dcc-4903-ba99-ecec02ba220c"/>
+    <PID name="compute_nodes" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[[Worker]EdgeCamera]]></ATT>
+      <ATT name="Name"><![CDATA[EdgeCamera]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -320,6 +320,47 @@
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="derivedFrom" mc="Infrastructure.Dependency" uid="932442a5-38a0-4ac3-8670-6ea232226c3f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[derivedFrom]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <FOREIGNID name="Compute" mc="Standard.Class" uid="13f04cdb-48c8-46e4-9929-1def4720dfe9"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="ed7f8206-90ad-44d8-b1ca-c397537c3a2f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="ab6a8920-da17-4421-ad15-628f2de97d2b"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[derivedFrom]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

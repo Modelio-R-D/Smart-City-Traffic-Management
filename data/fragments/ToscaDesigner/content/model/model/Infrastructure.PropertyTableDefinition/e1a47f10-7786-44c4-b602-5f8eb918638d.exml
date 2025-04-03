@@ -10,11 +10,11 @@
     <DEPENDENCIES>
       <COMP relation="Owned">
         <OBJECT>
-          <ID name="artifactType" mc="Infrastructure.PropertyDefinition" uid="11b2ec8c-7e88-4012-b051-c5ff3843b3d7"/>
+          <ID name="file" mc="Infrastructure.PropertyDefinition" uid="7acf9bc4-9dc3-4663-8355-4368413f2578"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[artifactType]]></ATT>
+            <ATT name="Name"><![CDATA[file]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -23,9 +23,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="01cb27ad-bdd4-42cb-a44b-73eb8dd45814"/>
+                <ID name="" mc="Infrastructure.Note" uid="063af4ce-f0cb-4fc6-9f10-63c906082ba7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.artifactType.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.file.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -40,11 +40,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="artifactref" mc="Infrastructure.PropertyDefinition" uid="7acf9bc4-9dc3-4663-8355-4368413f2578"/>
+          <ID name="repository" mc="Infrastructure.PropertyDefinition" uid="198ef816-98ff-465e-af75-32bdb5f9da13"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[artifactref]]></ATT>
+            <ATT name="Name"><![CDATA[repository]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -53,9 +53,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="3a29500b-b95c-4d9a-890a-8fc2d9049e3f"/>
+                <ID name="" mc="Infrastructure.Note" uid="b646f3fe-249d-402e-8408-7b8add9883e1"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.artifactref.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.repository.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -70,11 +70,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="File" mc="Infrastructure.PropertyDefinition" uid="198ef816-98ff-465e-af75-32bdb5f9da13"/>
+          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="2fd370da-daeb-4519-9f06-967d3e3cb882"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[File]]></ATT>
+            <ATT name="Name"><![CDATA[description]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -83,9 +83,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="96e3224c-8187-4929-b3aa-2c4e4ade8bf2"/>
+                <ID name="" mc="Infrastructure.Note" uid="88bbe894-ba0b-42dd-834b-f81fc1d41526"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.File.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -100,11 +100,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Deploy_path" mc="Infrastructure.PropertyDefinition" uid="be5a4c69-add9-4d4c-99cb-05a0a69359ba"/>
+          <ID name="deploy_path" mc="Infrastructure.PropertyDefinition" uid="c8fa55fe-6ff5-4ec5-9d1f-f32385091030"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[Deploy_path]]></ATT>
+            <ATT name="Name"><![CDATA[deploy_path]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -113,9 +113,99 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="14bffcba-73b2-4025-958b-cd8b4695243a"/>
+                <ID name="" mc="Infrastructure.Note" uid="c8deb381-60a1-4f41-92e0-ce8b64c236e8"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.Deploy_path.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.deploy_path.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="artifact_version" mc="Infrastructure.PropertyDefinition" uid="1774043f-fb09-4265-bbe1-c43047c05ff7"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[artifact_version]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="7cede125-33c7-4447-b142-68fcdc7cf6a5"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.artifact_version.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="checksum" mc="Infrastructure.PropertyDefinition" uid="b7dc26ea-f4bf-4f9f-b847-cc89ba624530"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[checksum]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="24d55c5d-6525-4f36-b5d2-2d0393b2cf99"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.checksum.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="checksum_algortihm" mc="Infrastructure.PropertyDefinition" uid="a0b664be-6ddd-4e45-8208-113c85c48101"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[checksum_algortihm]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="6abf3da7-6662-40ed-ad10-aa240f00b83e"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.checksum_algortihm.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

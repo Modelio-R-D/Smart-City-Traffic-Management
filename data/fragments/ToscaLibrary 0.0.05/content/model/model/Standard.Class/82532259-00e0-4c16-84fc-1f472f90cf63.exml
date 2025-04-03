@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="routesTo" version="4">
+  <OBJECT>
+    <ID name="routesTo" mc="Standard.Class" uid="82532259-00e0-4c16-84fc-1f472f90cf63"/>
+    <PID name="relationships" mc="Standard.Package" uid="490d7f13-3499-47ab-a9a2-ef73edae8381"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[routesTo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="fa82a166-51b6-4cb1-9798-5fd783adc67b"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="root" mc="Standard.Class" uid="31bdf693-0d47-4329-af70-529ec1ccc4b0"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TRelationshipType" mc="Infrastructure.Stereotype" uid="1b11c098-c9e5-4e5d-beca-3351909bc6ce"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

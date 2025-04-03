@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="network" version="4">
+  <OBJECT>
+    <ID name="network" mc="Standard.Package" uid="adadcd78-feed-4a3a-b29f-379753528834"/>
+    <PID name="datatypes" mc="Standard.Package" uid="25d2d7f1-2e28-4285-b26a-fdf77c3bc916"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[network]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NetworkInfo" mc="Standard.DataType" uid="18456799-2aaf-4b7f-b891-435f565f2a4d"/>
+        <COMPID name="PortInfo" mc="Standard.DataType" uid="409c81c3-2df1-446f-9ee3-e6883fa35709"/>
+        <COMPID name="PortDef" mc="Standard.DataType" uid="bddcd625-eed0-42b9-bc2a-7b62b5c3ce84"/>
+        <COMPID name="PortSpec" mc="Standard.DataType" uid="810734b7-0da5-49c9-a106-40cc76e4c82d"/>
+        <OBJECT>
+          <ID name="PortSpecType" mc="Standard.Enumeration" uid="8b92e208-7eed-4f6c-a04b-9301791eb1d6"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[PortSpecType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="udp" mc="Standard.EnumerationLiteral" uid="3683e9ce-372a-46ce-b641-7ef3c587bb6e"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[udp]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="tcp" mc="Standard.EnumerationLiteral" uid="5f62c3c8-b490-467f-a666-19e1a1f5857d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[tcp]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="igmp" mc="Standard.EnumerationLiteral" uid="ec7e3f5b-68c0-48f2-9eb6-f2cfae0278a6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[igmp]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

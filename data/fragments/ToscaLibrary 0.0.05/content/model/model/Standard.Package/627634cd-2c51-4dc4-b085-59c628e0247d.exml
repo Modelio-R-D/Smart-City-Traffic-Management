@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="node" version="4">
+  <OBJECT>
+    <ID name="node" mc="Standard.Package" uid="627634cd-2c51-4dc4-b085-59c628e0247d"/>
+    <PID name="interfaces" mc="Standard.Package" uid="0a903668-38f5-4090-a3ae-edcc5a48dcf9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[node]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="lifecycle" mc="Standard.Package" uid="275880dc-3273-4136-8b79-029e33f86513"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

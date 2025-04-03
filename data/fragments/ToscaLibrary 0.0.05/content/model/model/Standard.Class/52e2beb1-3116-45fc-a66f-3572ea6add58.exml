@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bindable" version="4">
+  <OBJECT>
+    <ID name="Bindable" mc="Standard.Class" uid="52e2beb1-3116-45fc-a66f-3572ea6add58"/>
+    <PID name="network" mc="Standard.Class" uid="da240d51-f221-4dd1-bcf5-bbd1600e67a4"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Bindable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="752b9dfd-1e69-4013-a22a-683b0b4eb4c2"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Node" mc="Standard.Class" uid="38fa731f-c26d-480a-83f6-09933ce04d09"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityType" mc="Infrastructure.Stereotype" uid="42438c96-0721-406a-a8b9-c4a85931cc60"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

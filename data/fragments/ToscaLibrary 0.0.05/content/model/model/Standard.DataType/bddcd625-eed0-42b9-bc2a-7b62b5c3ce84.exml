@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PortDef" version="4">
+  <OBJECT>
+    <ID name="PortDef" mc="Standard.DataType" uid="bddcd625-eed0-42b9-bc2a-7b62b5c3ce84"/>
+    <PID name="network" mc="Standard.Package" uid="adadcd78-feed-4a3a-b29f-379753528834"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">true</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PortDef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="6ddcdaf6-7035-4533-bc98-cab491b2eecb"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="ConstraintDefinition">
+        <OBJECT>
+          <ID name="" mc="Standard.Constraint" uid="8b13547d-68c6-4659-84c2-a3b74d26b8fc"/>
+          <ATTRIBUTES>
+            <ATT name="BaseClass"></ATT>
+            <ATT name="Body"><![CDATA[context PortDef inv:    
+	self >= 1 and self <= 65535]]></ATT>
+            <ATT name="Language"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

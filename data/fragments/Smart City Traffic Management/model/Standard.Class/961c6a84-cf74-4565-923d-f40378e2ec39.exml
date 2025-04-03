@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Policies" version="4">
   <OBJECT>
     <ID name="Policies" mc="Standard.Class" uid="961c6a84-cf74-4565-923d-f40378e2ec39"/>
-    <PID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
+    <PID name="TopologyTemplate" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,14 +16,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Edge Resource Efficiency" mc="Standard.Class" uid="956f8698-7436-4515-af21-692cd822b184"/>
-        <COMPID name="Fog Resource Efficiency" mc="Standard.Class" uid="740e6f02-59aa-4fd4-9b46-7ea9dd7ba435"/>
-        <COMPID name="Network Bandwidth Management" mc="Standard.Class" uid="d3a3971b-cebe-45eb-8a1f-a7910377f259"/>
-        <COMPID name="Edge Power Optimization" mc="Standard.Class" uid="a77f642c-0e1e-464b-a157-254e7df44f57"/>
-        <COMPID name="Fog Power Optimization" mc="Standard.Class" uid="89700e4e-bf02-4fe4-ab2e-394633f04ed7"/>
-        <COMPID name="Real-time Object Detection" mc="Standard.Class" uid="b7cf7492-a961-4f05-8cf2-a0f487741d9e"/>
-        <COMPID name="Rapid Situation Assessment" mc="Standard.Class" uid="97197546-afcd-4c3d-8aec-659fc469502a"/>
-        <COMPID name="Timely Communication" mc="Standard.Class" uid="58b32407-a6ce-4dbd-94fa-3efb74632024"/>
+        <COMPID name="high_cpu_utilization_on_camera" mc="Standard.Class" uid="9ac9fd6d-d7de-46bc-b306-f204878a9a0c"/>
+        <COMPID name="high_cpu_utilization_on_fog" mc="Standard.Class" uid="1aea8eb9-f72d-4f1b-af1f-83f287057a37"/>
+        <COMPID name="edge_low_power_mode" mc="Standard.Class" uid="eee06ec3-a6cb-4114-9dd0-84020892f971"/>
+        <COMPID name="high_traffic_scaling" mc="Standard.Class" uid="98794cd8-0cc4-4c3b-9ea5-3c750cd61be1"/>
+        <COMPID name="low_traffic_scaling" mc="Standard.Class" uid="824479be-c6df-4417-afc6-5046e3a4201d"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="PoliciesType" mc="Infrastructure.Stereotype" uid="205759e2-44bb-4cb3-b19e-8cfbed4f9435"/>

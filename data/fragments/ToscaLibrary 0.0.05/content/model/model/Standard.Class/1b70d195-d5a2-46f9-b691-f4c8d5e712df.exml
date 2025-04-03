@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Endpoint.Database" version="4">
+  <OBJECT>
+    <ID name="Endpoint.Database" mc="Standard.Class" uid="1b70d195-d5a2-46f9-b691-f4c8d5e712df"/>
+    <PID name="capabilities" mc="Standard.Package" uid="0f00be29-5fc7-44e0-981c-d0e627525d5d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Endpoint.Database]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="6441e340-6ab7-4548-89ff-b3efe0799797"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Endpoint" mc="Standard.Class" uid="6564ec21-c0a9-4da0-8910-93e4d7aca774"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityType" mc="Infrastructure.Stereotype" uid="42438c96-0721-406a-a8b9-c4a85931cc60"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

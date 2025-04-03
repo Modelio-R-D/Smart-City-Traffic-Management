@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="software_component_nodes" version="4">
+  <OBJECT>
+    <ID name="software_component_nodes" mc="Standard.Class" uid="6cdacfcb-30cc-4999-bb23-91e0faa51d0a"/>
+    <PID name="TopologyTemplate" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[software_component_nodes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="object_detection_1" mc="Standard.Class" uid="ea4d8156-73e3-406b-9260-74e8360fc34b"/>
+        <COMPID name="object_tracking_1" mc="Standard.Class" uid="15130ff3-ac47-488d-892c-5f44ae2e1fe2"/>
+        <COMPID name="image_processing_1" mc="Standard.Class" uid="d637da51-df61-42dd-b740-ee14cd63e68d"/>
+        <COMPID name="traffic_data_analysis_1" mc="Standard.Class" uid="f31b1ae0-a7f6-4441-9714-77c5a9b0da8c"/>
+        <COMPID name="digital_signature_verification_1" mc="Standard.Class" uid="2520f77a-05ee-458b-88e8-68c9702074db"/>
+        <COMPID name="encryption_decryption_1" mc="Standard.Class" uid="3ec65d22-b635-4ad8-a887-e1cdd15ba7f6"/>
+        <COMPID name="key_exchange_mechanism_1" mc="Standard.Class" uid="b5e13dcb-8f9e-45cc-9317-8beb7bdfccc5"/>
+        <COMPID name="ai_malware_mechanism_1" mc="Standard.Class" uid="f6a57408-f253-4edd-a61e-f32a6f7f6114"/>
+        <COMPID name="side_channel_secure_library_1" mc="Standard.Class" uid="2eb3743e-e12b-4392-a001-7648aa58f608"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="trigger" version="4">
+  <OBJECT>
+    <ID name="trigger" mc="Standard.Class" uid="d03538ca-9050-46de-b96b-5825c08c7a22"/>
+    <PID name="high_cpu_utilization_on_fog" mc="Standard.Class" uid="1aea8eb9-f72d-4f1b-af1f-83f287057a37"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[trigger]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Trigger" mc="Infrastructure.Stereotype" uid="d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3"/>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3" mc="Infrastructure.TypedPropertyTable" uid="23d0303c-2a17-40aa-baac-e236f200ef24"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3]]></ATT>
+            <ATT name="Content"><![CDATA[#Thu Apr 03 10:36:37 CEST 2025
+action=migrate\: object_detection_service target\: cloud_instance_1
+condition=for fog_node in targets\: fog_node.cpu_utilization > fog_high_cpu_threshold
+description=Edge devices SHOULD maintain computational resource (CPU, GPU) utilization below 60% to ensure adequate headroom for handling unexpected traffic spikes or system events.
+event=
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TriggerTable" mc="Infrastructure.PropertyTableDefinition" uid="79e95ecd-2038-452e-89c3-8fb65ecf1363"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="22f2dd99-d1a7-4016-ad2e-7f9f6ca34f34"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

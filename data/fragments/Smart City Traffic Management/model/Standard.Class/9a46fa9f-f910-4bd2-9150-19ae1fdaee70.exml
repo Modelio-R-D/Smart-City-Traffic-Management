@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TopologyTemplate" version="4">
+  <OBJECT>
+    <ID name="TopologyTemplate" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
+    <PID name="Topology Template" mc="Standard.Package" uid="b3f53eb4-8d2a-4a93-843f-39f75c854ad7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TopologyTemplate]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Inputs" mc="Standard.Class" uid="8f080442-c831-456e-8769-5d26a2d00c4a"/>
+        <COMPID name="Policies" mc="Standard.Class" uid="961c6a84-cf74-4565-923d-f40378e2ec39"/>
+        <COMPID name="compute_nodes" mc="Standard.Class" uid="be631990-e577-4549-9020-41cca4386e2e"/>
+        <COMPID name="software_component_nodes" mc="Standard.Class" uid="6cdacfcb-30cc-4999-bb23-91e0faa51d0a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TTopologyTemplate" mc="Infrastructure.Stereotype" uid="a52f433c-cf19-4033-99c2-81b4af708744"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

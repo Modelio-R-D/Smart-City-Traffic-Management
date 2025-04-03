@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Attachment" version="4">
+  <OBJECT>
+    <ID name="Attachment" mc="Standard.Class" uid="4464c0e7-7406-4346-82e6-006f728f9216"/>
+    <PID name="capabilities" mc="Standard.Package" uid="0f00be29-5fc7-44e0-981c-d0e627525d5d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Attachment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="3616aa5e-949e-4e6d-a1cb-6e5e6bdd1122"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Root" mc="Standard.Class" uid="9c7ea549-e5a4-4be4-b24e-ddcb03464989"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityType" mc="Infrastructure.Stereotype" uid="42438c96-0721-406a-a8b9-c4a85931cc60"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

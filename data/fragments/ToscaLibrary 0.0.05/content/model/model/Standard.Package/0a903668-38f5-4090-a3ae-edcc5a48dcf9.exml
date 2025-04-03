@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="interfaces" version="4">
+  <OBJECT>
+    <ID name="interfaces" mc="Standard.Package" uid="0a903668-38f5-4090-a3ae-edcc5a48dcf9"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[interfaces]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="node" mc="Standard.Package" uid="627634cd-2c51-4dc4-b085-59c628e0247d"/>
+        <COMPID name="relationship" mc="Standard.Package" uid="8304794c-5653-4685-83b0-827d68405cdb"/>
+        <COMPID name="root" mc="Standard.Interface" uid="a936fb27-e737-494a-ab5b-f5253817d7db"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

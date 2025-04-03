@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="capabilities" version="4">
+  <OBJECT>
+    <ID name="capabilities" mc="Standard.Package" uid="0f00be29-5fc7-44e0-981c-d0e627525d5d"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[capabilities]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Root" mc="Standard.Class" uid="9c7ea549-e5a4-4be4-b24e-ddcb03464989"/>
+        <COMPID name="Node" mc="Standard.Class" uid="38fa731f-c26d-480a-83f6-09933ce04d09"/>
+        <COMPID name="Compute" mc="Standard.Class" uid="3675188b-23e1-4d10-b64b-c0bcf18965aa"/>
+        <COMPID name="Network" mc="Standard.Class" uid="5e3fa73e-f7ee-499f-95cc-cc08bd7839d5"/>
+        <COMPID name="Storage" mc="Standard.Class" uid="7da8f4f9-2e3f-4970-9537-90939550327a"/>
+        <COMPID name="Container" mc="Standard.Class" uid="cc66f790-2971-431b-9f7b-dc4f57ef69c0"/>
+        <COMPID name="Container.Docker" mc="Standard.Class" uid="f1b3ca30-f797-4ff6-bb83-2473beb4ca23"/>
+        <COMPID name="Endpoint" mc="Standard.Class" uid="6564ec21-c0a9-4da0-8910-93e4d7aca774"/>
+        <COMPID name="Endpoint.Public" mc="Standard.Class" uid="7257cc8f-3590-40a9-9790-8810e1593f47"/>
+        <COMPID name="Endpoint.Admin" mc="Standard.Class" uid="f34cca6d-3c2a-40f4-9715-c7e01f2b494d"/>
+        <COMPID name="Endpoint.Database" mc="Standard.Class" uid="1b70d195-d5a2-46f9-b691-f4c8d5e712df"/>
+        <COMPID name="Attachment" mc="Standard.Class" uid="4464c0e7-7406-4346-82e6-006f728f9216"/>
+        <COMPID name="OperatingSystem" mc="Standard.Class" uid="f65cfb32-bba8-412d-982d-ad9fa6399678"/>
+        <COMPID name="Scalable" mc="Standard.Class" uid="93e119b6-09d4-4d60-8e92-dd2d51992469"/>
+        <COMPID name="compute" mc="Standard.Class" uid="f2fc427f-2810-4919-8840-bf25f4e9c25d"/>
+        <COMPID name="network" mc="Standard.Class" uid="da240d51-f221-4dd1-bcf5-bbd1600e67a4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -14,8 +14,6 @@
     <DEPENDENCIES>
       <LINK relation="Represented">
         <ID name="Smart Traffic Management" mc="Standard.Class" uid="796d74aa-b19e-4b0e-9038-3f45cd69e01a"/>
-        <ID name="Constraints" mc="Standard.Class" uid="24dbd55c-f795-4077-956b-983075f06362"/>
-        <ID name="Policies" mc="Standard.Class" uid="fbf4e2ea-2527-4453-b461-4ae9c746d105"/>
         <ID name="Inputs" mc="Standard.Class" uid="8f080442-c831-456e-8769-5d26a2d00c4a"/>
       </LINK>
       <LINK relation="Extension">

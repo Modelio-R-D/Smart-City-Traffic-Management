@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="capabilities" version="4">
+  <OBJECT>
+    <ID name="capabilities" mc="Standard.Class" uid="e664475c-a826-41d9-aea6-3c0a04d8553b"/>
+    <PID name="LoadBalancer" mc="Standard.Class" uid="c03a29ce-de3d-4dc9-8ac5-7e89e7508d66"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[capabilities]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="client" mc="Standard.Class" uid="9da397fb-34a3-44ce-8e51-c3cb4e9aa807"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TCapabilityDefinitionsType" mc="Infrastructure.Stereotype" uid="ac0418b1-a726-46e6-ac59-310f0055050f"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

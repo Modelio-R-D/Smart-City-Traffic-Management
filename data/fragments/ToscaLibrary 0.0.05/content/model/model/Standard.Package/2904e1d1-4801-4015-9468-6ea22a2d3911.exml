@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nodes" version="4">
+  <OBJECT>
+    <ID name="nodes" mc="Standard.Package" uid="2904e1d1-4801-4015-9468-6ea22a2d3911"/>
+    <PID name="tosca" mc="Standard.Package" uid="d807a8fd-fde7-4614-a1fa-e0f147d6f727"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nodes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Root" mc="Standard.Class" uid="bf2e1a51-34b9-4f90-9278-31b5cf6a693e"/>
+        <COMPID name="Abstract.Compute" mc="Standard.Class" uid="600d68ba-7f10-49d3-8c05-0d7eadecc38c"/>
+        <COMPID name="Abstract.Storage" mc="Standard.Class" uid="520ebe0c-6989-4613-a548-583b5c110131"/>
+        <COMPID name="Compute" mc="Standard.Class" uid="13f04cdb-48c8-46e4-9929-1def4720dfe9"/>
+        <COMPID name="SoftwareComponent" mc="Standard.Class" uid="d08da84f-84f8-4c88-916b-cf59b2b69774"/>
+        <COMPID name="WebServer" mc="Standard.Class" uid="9adf0354-8444-4d01-8cc7-f924b9e36df7"/>
+        <COMPID name="WebApplication" mc="Standard.Class" uid="f935b00d-5a9d-4893-a97a-b32b8593da05"/>
+        <COMPID name="DBMS" mc="Standard.Class" uid="14d7fc9a-3562-45af-8e25-8ed1ac1db3d3"/>
+        <COMPID name="Database" mc="Standard.Class" uid="d8cb49a9-bec4-447d-b68e-c7429a6105cb"/>
+        <COMPID name="ObjectStorage" mc="Standard.Class" uid="f4cf5e9b-f73f-4654-b91b-96c963cfd29b"/>
+        <COMPID name="BlockStorage" mc="Standard.Class" uid="34a73031-253b-461f-b42d-d573e636f98f"/>
+        <COMPID name="Container.Runtime" mc="Standard.Class" uid="fdd3d8ee-32ce-4250-9473-ebbc6e4002a0"/>
+        <COMPID name="Container.Application" mc="Standard.Class" uid="b3d5d942-ef0b-453e-9dcc-0d1eada74498"/>
+        <COMPID name="LoadBalancer" mc="Standard.Class" uid="c03a29ce-de3d-4dc9-8ac5-7e89e7508d66"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

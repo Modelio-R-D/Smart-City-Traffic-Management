@@ -6,7 +6,7 @@
       <ATT name="LicenseKey">0</ATT>
       <ATT name="MajVersion">0</ATT>
       <ATT name="MinVersion">0</ATT>
-      <ATT name="MinMinVersion"><![CDATA[0]]></ATT>
+      <ATT name="MinMinVersion"><![CDATA[1]]></ATT>
       <ATT name="MinBinVersionCompatibility"></ATT>
       <ATT name="JavaClassName"><![CDATA[fr.softeam.toscadesigner.impl.ToscaDesignerModule]]></ATT>
       <ATT name="Name"><![CDATA[ToscaDesigner]]></ATT>

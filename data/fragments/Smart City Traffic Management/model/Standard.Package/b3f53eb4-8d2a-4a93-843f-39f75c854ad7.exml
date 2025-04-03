@@ -14,7 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="TopologyTemplate" mc="Standard.Package" uid="ddf9d552-2f89-45d3-a1ea-119d2cff033b"/>
+        <COMPID name="TopologyTemplate" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>

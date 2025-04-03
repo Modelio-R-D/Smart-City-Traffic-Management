@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Root" version="4">
+  <OBJECT>
+    <ID name="Root" mc="Standard.Package" uid="6e560ae4-6edd-42bf-acb4-78d159a22c3d"/>
+    <PID name="groups" mc="Standard.Package" uid="08a288ae-6a20-4887-95cd-af9f6dcbfc89"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Root]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Instance" mc="Standard.Interface" uid="f7810ec7-d74e-481d-aeeb-8c2f7fb6cd63"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
