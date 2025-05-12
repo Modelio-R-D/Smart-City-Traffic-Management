@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="a7a67f0b-584e-4857-87e2-48de366978ae"/>
+                <ID name="" mc="Infrastructure.Note" uid="f435d330-2666-4246-b396-e7d573686a56"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TPlansPropertyTable.targetNamespace.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

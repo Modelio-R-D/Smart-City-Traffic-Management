@@ -16,7 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
+        <COMPID name="low_traffic_scaling_trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
       </COMP>
       <COMP relation="ConstraintDefinition">
         <OBJECT>
@@ -96,7 +96,7 @@ scaling_policies:
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
+              <ID name="low_traffic_scaling_trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>

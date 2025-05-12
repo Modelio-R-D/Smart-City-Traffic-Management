@@ -1,10 +1,12 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compute_nodes" version="4">
   <OBJECT>
-    <ID name="compute_nodes" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
+    <ID name="compute_nodes" mc="Standard.Class" uid="09cdbcd4-5cbc-41d6-8480-7fdcce14a64b"/>
     <PID name="Service Template" mc="Standard.Package" uid="f60aea26-1149-4aff-b2db-24caee96b7ba"/>
     <ATTRIBUTES>
-      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
@@ -14,9 +16,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="[Worker]EdgeCamera" mc="Standard.Class" uid="48b32b13-4dcc-4903-ba99-ecec02ba220c"/>
-        <COMPID name="[Worker]FogNode" mc="Standard.Class" uid="51d53410-da00-49ed-9d6c-ecc3e515d080"/>
-        <COMPID name="[Worker]CloudInstance" mc="Standard.Class" uid="34e86875-5f5e-4161-94d7-68864d33786a"/>
+        <COMPID name="EdgeCamera" mc="Standard.Class" uid="48b32b13-4dcc-4903-ba99-ecec02ba220c"/>
+        <COMPID name="FogNode" mc="Standard.Class" uid="51d53410-da00-49ed-9d6c-ecc3e515d080"/>
+        <COMPID name="CloudInstance" mc="Standard.Class" uid="34e86875-5f5e-4161-94d7-68864d33786a"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>

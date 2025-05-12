@@ -10,11 +10,11 @@
     <DEPENDENCIES>
       <COMP relation="Owned">
         <OBJECT>
-          <ID name="name" mc="Infrastructure.PropertyDefinition" uid="abc12b37-e245-4073-9a9f-ebeeb2f4426d"/>
+          <ID name="notifications" mc="Infrastructure.PropertyDefinition" uid="1c86cfbe-dda6-4b27-b5aa-59b0433d0603"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[name]]></ATT>
+            <ATT name="Name"><![CDATA[notifications]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -23,39 +23,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="835d9ec6-5618-4a81-9fab-9e9fdf5200e9"/>
+                <ID name="" mc="Infrastructure.Note" uid="b99e5ca7-53fe-4822-b444-c1836784e845"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TInterfaceTable.name.description]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="PropertyTypeDefinition2" mc="Infrastructure.PropertyDefinition" uid="d060b91b-e90c-48fb-8017-56a04caf352b"/>
-          <ATTRIBUTES>
-            <ATT name="IsEditable">true</ATT>
-            <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[PropertyTypeDefinition2]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="Acceptance" mc="Infrastructure.EnumeratedPropertyType" uid="01ec152c-0000-3152-0000-000000000000"/>
-            </LINK>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="60cfac3c-c655-4a84-a35f-05f1114d1191"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TInterfaceTable.PropertyTypeDefinition2.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TInterfaceTable.notifications.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

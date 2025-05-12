@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
   <OBJECT>
     <ID name="Requirements" mc="Standard.Class" uid="76ac0853-8eeb-46d4-9e51-7d240de6e848"/>
-    <PID name="[Pod]ImageProcessing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
+    <PID name="image_processing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,8 +16,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="processingRequirement" mc="Standard.Class" uid="748c65eb-da14-437b-848f-55d289715b3f"/>
-        <COMPID name="memoryRequirement" mc="Standard.Class" uid="9cbb5815-b74e-4ca6-9665-ce733a779bf7"/>
         <COMPID name="host" mc="Standard.Class" uid="8fabcc42-c007-4bfc-ba44-03e33151a1f8"/>
       </COMP>
       <LINK relation="Extension">

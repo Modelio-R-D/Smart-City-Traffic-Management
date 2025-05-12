@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="software_component_nodes" version="4">
   <OBJECT>
     <ID name="software_component_nodes" mc="Standard.Class" uid="6cdacfcb-30cc-4999-bb23-91e0faa51d0a"/>
-    <PID name="TopologyTemplate" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
+    <PID name="Safe Mobility Topology Template" mc="Standard.Class" uid="9a46fa9f-f910-4bd2-9150-19ae1fdaee70"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -26,6 +26,9 @@
         <COMPID name="ai_malware_mechanism_1" mc="Standard.Class" uid="f6a57408-f253-4edd-a61e-f32a6f7f6114"/>
         <COMPID name="side_channel_secure_library_1" mc="Standard.Class" uid="2eb3743e-e12b-4392-a001-7648aa58f608"/>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

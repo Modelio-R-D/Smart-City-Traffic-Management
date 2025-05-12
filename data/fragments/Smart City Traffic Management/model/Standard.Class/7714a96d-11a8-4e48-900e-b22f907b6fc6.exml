@@ -1,10 +1,12 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="software_component_nodes" version="4">
   <OBJECT>
-    <ID name="software_component_nodes" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
+    <ID name="software_component_nodes" mc="Standard.Class" uid="7714a96d-11a8-4e48-900e-b22f907b6fc6"/>
     <PID name="Service Template" mc="Standard.Package" uid="f60aea26-1149-4aff-b2db-24caee96b7ba"/>
     <ATTRIBUTES>
-      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
@@ -14,11 +16,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="[Pod]ObjectDetection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
-        <COMPID name="[Pod]ImageProcessing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
-        <COMPID name="[Pod]ObjectTracking" mc="Standard.Class" uid="934853b0-f10c-409b-810c-98c31755b99e"/>
-        <COMPID name="[Pod]TrafficDataAnalysis" mc="Standard.Class" uid="d8660708-148e-40f8-9e6b-f10d76a079fa"/>
-        <COMPID name="[Pod]SecurityCountermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
+        <COMPID name="object_detection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
+        <COMPID name="image_processing" mc="Standard.Class" uid="10e51343-ced1-46aa-9412-3c1238947893"/>
+        <COMPID name="object_tracking" mc="Standard.Class" uid="934853b0-f10c-409b-810c-98c31755b99e"/>
+        <COMPID name="traffic_data_analysis" mc="Standard.Class" uid="d8660708-148e-40f8-9e6b-f10d76a079fa"/>
+        <COMPID name="security_countermeasure" mc="Standard.Class" uid="58b35719-24eb-4896-9a74-673324541fa5"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>

@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CloudInstance" version="4">
   <OBJECT>
     <ID name="CloudInstance" mc="Standard.Class" uid="34e86875-5f5e-4161-94d7-68864d33786a"/>
-    <PID name="compute_nodes" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
+    <PID name="compute_nodes" mc="Standard.Class" uid="09cdbcd4-5cbc-41d6-8480-7fdcce14a64b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -160,7 +160,7 @@
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="derivedFrom" mc="Infrastructure.Dependency" uid="3281021d-df88-4f38-a779-4e10ad33bf1d"/>
+          <ID name="derivedFrom" mc="Infrastructure.Dependency" uid="01419e67-6588-43bc-b7cb-4d5e61d898ea"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[derivedFrom]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -174,7 +174,7 @@
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="f958b12a-d64a-4655-9bef-f46f5fb7ebb1"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="eb511ff5-ea25-4537-8bd7-b736223c8e05"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -182,7 +182,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="064f0498-8fe4-4d8c-ad68-6eca39876243"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="ac47ef73-2f09-4dca-8d09-45ec7bf3c033"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[derivedFrom]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -196,6 +196,23 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="678abce1-64f4-412b-87db-fa4bc1b94921"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue May 06 18:07:53 CEST 2025
+targetNamespace=MYRTUS-Mobility
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

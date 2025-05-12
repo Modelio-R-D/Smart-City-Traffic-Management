@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="af1e6adc-4922-4a85-b036-3130761f5c7d"/>
+                <ID name="" mc="Infrastructure.Note" uid="12e09d00-eadc-4846-9fd4-9a4126ce3acc"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.name.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -40,22 +40,22 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="inputParameters" mc="Infrastructure.PropertyDefinition" uid="7e07cefa-0db7-4a6c-99f5-099c223834eb"/>
+          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="7e07cefa-0db7-4a6c-99f5-099c223834eb"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[inputParameters]]></ATT>
+            <ATT name="Name"><![CDATA[description]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="MultiElement" mc="Infrastructure.PropertyType" uid="1bdf9f87-e9ad-4849-ab22-c25147e8d00c"/>
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b748cc79-c903-4877-8d64-0a64e68f24c3"/>
+                <ID name="" mc="Infrastructure.Note" uid="2d55ce17-92d7-422a-894d-f0e2eca16325"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.inputParameters.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -70,22 +70,82 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="outputParameters" mc="Infrastructure.PropertyDefinition" uid="d3330a11-ae5b-464f-862b-e587feba80ac"/>
+          <ID name="implementation" mc="Infrastructure.PropertyDefinition" uid="d3330a11-ae5b-464f-862b-e587feba80ac"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[outputParameters]]></ATT>
+            <ATT name="Name"><![CDATA[implementation]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="MultiElement" mc="Infrastructure.PropertyType" uid="1bdf9f87-e9ad-4849-ab22-c25147e8d00c"/>
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="6d8b3a93-e544-4ee5-949a-b299d1525782"/>
+                <ID name="" mc="Infrastructure.Note" uid="0caa29df-8087-4dce-b965-346b44abe8a5"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.outputParameters.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.implementation.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="inputs" mc="Infrastructure.PropertyDefinition" uid="30a6aef6-f577-4f54-a2eb-9df4e6bc46dd"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[inputs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="53609bff-3779-4b0d-9d93-6f5595c649e8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.inputs.description]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="outputs" mc="Infrastructure.PropertyDefinition" uid="d75d43de-20d1-4375-8764-f8048532f746"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[outputs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="b0c66c67-1f23-4c55-9419-c0f5ee9881fd"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[%propertydefinition.TOperationTable.outputs.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

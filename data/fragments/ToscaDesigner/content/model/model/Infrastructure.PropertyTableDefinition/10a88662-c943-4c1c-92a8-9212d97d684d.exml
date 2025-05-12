@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TPolicyTable" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PropertyDefinitionTypeTable" version="4">
   <OBJECT>
-    <ID name="TPolicyTable" mc="Infrastructure.PropertyTableDefinition" uid="ca3978f9-9ac6-4b7b-8785-a9d502a40e86"/>
-    <PID name="TPolicy" mc="Infrastructure.Stereotype" uid="afe2c9ed-9fab-4a53-a2d2-b52d849d0799"/>
+    <ID name="PropertyDefinitionTypeTable" mc="Infrastructure.PropertyTableDefinition" uid="10a88662-c943-4c1c-92a8-9212d97d684d"/>
+    <PID name="PropertyDefinitionType" mc="Infrastructure.Stereotype" uid="34943474-c962-4064-b5f1-c6008ebb3c9d"/>
     <ATTRIBUTES>
-      <ATT name="Name"><![CDATA[TPolicyTable]]></ATT>
+      <ATT name="Name"><![CDATA[PropertyDefinitionTypeTable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Owned">
         <OBJECT>
-          <ID name="policyRef" mc="Infrastructure.PropertyDefinition" uid="874eaba3-7da2-496d-b724-a3f411e15532"/>
+          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="d7bd8dcf-45a6-4906-95f9-a874b3a36709"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[policyRef]]></ATT>
+            <ATT name="Name"><![CDATA[description]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -23,9 +23,9 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="f463444e-5973-44e9-9b1d-30f4a57e0e45"/>
+                <ID name="" mc="Infrastructure.Note" uid="5b4c1f20-98ad-4fce-987a-e3181e8f049e"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TPolicyTable.policyRef.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.PropertyDefinitionTypeTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -40,22 +40,22 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="description" mc="Infrastructure.PropertyDefinition" uid="0c7da924-89ac-4530-b76e-fbbc0034f15e"/>
+          <ID name="required" mc="Infrastructure.PropertyDefinition" uid="f35e9a83-e034-47a1-95bf-a2e1a1203952"/>
           <ATTRIBUTES>
             <ATT name="IsEditable">true</ATT>
             <ATT name="DefaultValue"></ATT>
-            <ATT name="Name"><![CDATA[description]]></ATT>
+            <ATT name="Name"><![CDATA[required]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="Text" mc="Infrastructure.PropertyType" uid="01a40888-0000-002a-0000-000000000000"/>
+              <FOREIGNID name="Boolean" mc="Infrastructure.PropertyType" uid="01a40888-0000-002b-0000-000000000000"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="e2360a19-063d-4975-93da-d8d0d9fd9c0d"/>
+                <ID name="" mc="Infrastructure.Note" uid="83a63225-1ab3-44a7-870b-d1fe48e245c1"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[%propertydefinition.TPolicyTable.description.description]]></ATT>
+                  <ATT name="Content"><![CDATA[%propertydefinition.PropertyDefinitionTypeTable.required.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

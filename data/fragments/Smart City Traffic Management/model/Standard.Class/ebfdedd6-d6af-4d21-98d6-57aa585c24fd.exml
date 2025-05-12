@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
   <OBJECT>
     <ID name="Requirements" mc="Standard.Class" uid="ebfdedd6-d6af-4d21-98d6-57aa585c24fd"/>
-    <PID name="[Pod]ObjectDetection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
+    <PID name="object_detection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -17,8 +17,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="host" mc="Standard.Class" uid="e948415a-a0a1-44f5-9eb7-6166042ecd9e"/>
-        <COMPID name="processingRequirement" mc="Standard.Class" uid="e6cd9397-360b-4439-9c5a-b61c962cb288"/>
-        <COMPID name="memoryRequirement" mc="Standard.Class" uid="1fe0dd8a-671e-4bb5-9ba5-07a24e6325e8"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TRequirementDefinitionType" mc="Infrastructure.Stereotype" uid="622c76d1-f337-471e-984a-2af659417163"/>

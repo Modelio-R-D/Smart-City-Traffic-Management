@@ -259,87 +259,6 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
-          <ID name="currentPowerConsumption" mc="Standard.Attribute" uid="a9e393b5-9e6d-4f9f-9134-4637dce704d0"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[currentPowerConsumption]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="currentCpuUtilization" mc="Standard.Attribute" uid="6e2c25cb-7948-415a-b051-0d5284083b21"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[currentCpuUtilization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="currentFrameRate" mc="Standard.Attribute" uid="c6effc96-e89a-4ff4-85f1-53d0e5ca98d6"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[currentFrameRate]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
@@ -407,6 +326,77 @@
             </COMP>
             <COMP relation="Association">
               <COMPID name="connectsTo" mc="Standard.Association" uid="f8f5242b-2231-43cd-8546-e4f58aecb920"/>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="17671fdf-8c27-466d-9393-c22651ad9a41"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="fog_node_1" mc="Standard.Class" uid="a7d37fbf-7796-4a36-a10b-a3e4b61b3bfd"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="4cdfb66e-d4ae-4cde-ba04-6c88db9d3348"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="17671fdf-8c27-466d-9393-c22651ad9a41"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="5df92a42-68db-40e6-b6fa-84eb8647a6ed"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Extension">
+                          <FOREIGNID name="TRelationshipTemplate" mc="Infrastructure.Stereotype" uid="7f01001b-511e-4017-b6b4-729f68c85911"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="5df92a42-68db-40e6-b6fa-84eb8647a6ed"/>
             </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>

@@ -21,6 +21,7 @@
       </LINK>
       <COMP relation="Product">
         <COMPID name="Topology Template diagram" mc="Standard.StaticDiagram" uid="2866a98c-3a8e-49e9-88d3-367d3427ffc2"/>
+        <COMPID name="Simplified Topology Template diagram" mc="Standard.StaticDiagram" uid="87c1788a-4561-450c-95d3-5b9fce9e4aa7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

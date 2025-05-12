@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="trigger" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="low_traffic_scaling_trigger" version="4">
   <OBJECT>
-    <ID name="trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
+    <ID name="low_traffic_scaling_trigger" mc="Standard.Class" uid="5b9ae74f-3d34-4357-acb0-ef17ac724299"/>
     <PID name="low_traffic_scaling" mc="Standard.Class" uid="824479be-c6df-4417-afc6-5046e3a4201d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[trigger]]></ATT>
+      <ATT name="Name"><![CDATA[low_traffic_scaling_trigger]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

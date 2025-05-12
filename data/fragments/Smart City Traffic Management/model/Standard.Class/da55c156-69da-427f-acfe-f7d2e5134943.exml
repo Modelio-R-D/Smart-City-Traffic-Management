@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="trigger" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="edge_low_power_mode_trigger" version="4">
   <OBJECT>
-    <ID name="trigger" mc="Standard.Class" uid="da55c156-69da-427f-acfe-f7d2e5134943"/>
+    <ID name="edge_low_power_mode_trigger" mc="Standard.Class" uid="da55c156-69da-427f-acfe-f7d2e5134943"/>
     <PID name="edge_low_power_mode" mc="Standard.Class" uid="eee06ec3-a6cb-4114-9dd0-84020892f971"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[trigger]]></ATT>
+      <ATT name="Name"><![CDATA[edge_low_power_mode_trigger]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

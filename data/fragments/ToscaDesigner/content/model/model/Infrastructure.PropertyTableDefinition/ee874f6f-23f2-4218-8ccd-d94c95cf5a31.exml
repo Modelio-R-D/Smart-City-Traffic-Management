@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="5d0be392-99a0-4256-aaaa-5084bab00d97"/>
+                <ID name="" mc="Infrastructure.Note" uid="7db24dd9-3b87-4c41-b249-08ce8c330635"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TExtensionTable.mustUnderstand.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b657d5a8-cfc7-43ac-af79-ab1550467969"/>
+                <ID name="" mc="Infrastructure.Note" uid="2aa6407d-e379-4153-ad3a-433aa3ad3dd5"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TExtensionTable.namespace.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

@@ -13,6 +13,10 @@
       <ATT name="Name"><![CDATA[PropertyDefinitionType]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="PropertyDefinitionTypeTable" mc="Infrastructure.PropertyTableDefinition" uid="10a88662-c943-4c1c-92a8-9212d97d684d"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

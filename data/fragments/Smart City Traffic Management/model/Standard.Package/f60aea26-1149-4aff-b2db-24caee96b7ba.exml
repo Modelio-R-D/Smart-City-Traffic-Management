@@ -14,8 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Workers" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
-        <COMPID name="Pods" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
+        <COMPID name="compute_nodes" mc="Standard.Class" uid="09cdbcd4-5cbc-41d6-8480-7fdcce14a64b"/>
+        <COMPID name="software_component_nodes" mc="Standard.Class" uid="7714a96d-11a8-4e48-900e-b22f907b6fc6"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>

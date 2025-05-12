@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b94cf256-8f5a-41f7-ba89-1c3eb413be62"/>
+                <ID name="" mc="Infrastructure.Note" uid="181e4bcb-897c-4824-9648-c813f820959f"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TNodeTemplateProperty.name.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="aaa70b22-b653-4e4f-bea8-1fcbc1ea679a"/>
+                <ID name="" mc="Infrastructure.Note" uid="fddd30d2-f552-494b-a1f7-3ae7e5387944"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TNodeTemplateProperty.minInstances.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="3117533a-5293-4c44-8eff-e82bc49d6292"/>
+                <ID name="" mc="Infrastructure.Note" uid="3086762f-1e86-46a4-a062-095ed8ba3c2f"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TNodeTemplateProperty.maxInstances.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

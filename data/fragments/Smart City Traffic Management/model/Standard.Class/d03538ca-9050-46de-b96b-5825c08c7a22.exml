@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="trigger" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="high_cpu_utilization_on_fog_trigger" version="4">
   <OBJECT>
-    <ID name="trigger" mc="Standard.Class" uid="d03538ca-9050-46de-b96b-5825c08c7a22"/>
+    <ID name="high_cpu_utilization_on_fog_trigger" mc="Standard.Class" uid="d03538ca-9050-46de-b96b-5825c08c7a22"/>
     <PID name="high_cpu_utilization_on_fog" mc="Standard.Class" uid="1aea8eb9-f72d-4f1b-af1f-83f287057a37"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[trigger]]></ATT>
+      <ATT name="Name"><![CDATA[high_cpu_utilization_on_fog_trigger]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -23,11 +23,12 @@
           <ID name="d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3" mc="Infrastructure.TypedPropertyTable" uid="23d0303c-2a17-40aa-baac-e236f200ef24"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[d385b57a-f3ae-45f5-90b4-bfc96c3ea0c3]]></ATT>
-            <ATT name="Content"><![CDATA[#Thu Apr 03 10:36:37 CEST 2025
+            <ATT name="Content"><![CDATA[#Tue Apr 29 14:55:09 CEST 2025
 action=migrate\: object_detection_service target\: cloud_instance_1
 condition=for fog_node in targets\: fog_node.cpu_utilization > fog_high_cpu_threshold
 description=Edge devices SHOULD maintain computational resource (CPU, GPU) utilization below 60% to ensure adequate headroom for handling unexpected traffic spikes or system events.
 event=
+schedule=
 ]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>

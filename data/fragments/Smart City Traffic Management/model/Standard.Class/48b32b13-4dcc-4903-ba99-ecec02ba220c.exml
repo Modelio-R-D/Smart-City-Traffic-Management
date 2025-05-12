@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EdgeCamera" version="4">
   <OBJECT>
     <ID name="EdgeCamera" mc="Standard.Class" uid="48b32b13-4dcc-4903-ba99-ecec02ba220c"/>
-    <PID name="compute_nodes" mc="Standard.Package" uid="9463f2fd-cbb5-4080-81a4-fa2b79ecac09"/>
+    <PID name="compute_nodes" mc="Standard.Class" uid="09cdbcd4-5cbc-41d6-8480-7fdcce14a64b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -358,6 +358,25 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="8252b8bb-d4a3-4527-8511-1157673ec1cc"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue May 06 18:07:23 CEST 2025
+abstract=false
+final=true
+targetNamespace=MYRTUS-mobility
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

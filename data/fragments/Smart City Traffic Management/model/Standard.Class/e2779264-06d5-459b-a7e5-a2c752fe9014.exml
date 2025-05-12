@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="object_detection" version="4">
   <OBJECT>
     <ID name="object_detection" mc="Standard.Class" uid="e2779264-06d5-459b-a7e5-a2c752fe9014"/>
-    <PID name="software_component_nodes" mc="Standard.Package" uid="376bc38b-960a-42b4-a401-38b7f727eda8"/>
+    <PID name="software_component_nodes" mc="Standard.Class" uid="7714a96d-11a8-4e48-900e-b22f907b6fc6"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -99,50 +99,25 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Capabilities" mc="Standard.Class" uid="d8ed8382-1620-410b-9eee-3554e1200de5"/>
         <COMPID name="Requirements" mc="Standard.Class" uid="ebfdedd6-d6af-4d21-98d6-57aa585c24fd"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TNodeType" mc="Infrastructure.Stereotype" uid="47cdd09e-013d-4670-b757-f5736d2bb48c"/>
       </LINK>
-      <COMP relation="DependsOnDependency">
+      <COMP relation="Properties">
         <OBJECT>
-          <ID name="derivedFrom" mc="Infrastructure.Dependency" uid="2f87a223-728b-46d4-ac3b-3b60fa09f7ab"/>
+          <ID name="fecd81a5-da41-4a07-a507-6bfaf5bbadd2" mc="Infrastructure.TypedPropertyTable" uid="e5922d38-3e6c-4dbf-b58f-65c4d7bc29af"/>
           <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[derivedFrom]]></ATT>
+            <ATT name="Name"><![CDATA[fecd81a5-da41-4a07-a507-6bfaf5bbadd2]]></ATT>
+            <ATT name="Content"><![CDATA[#Tue May 06 18:08:00 CEST 2025
+targetNamespace=MYRTUS-mobility
+]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="DependsOn">
-              <FOREIGNID name="SoftwareComponent" mc="Standard.Class" uid="d08da84f-84f8-4c88-916b-cf59b2b69774"/>
+            <LINK relation="Type">
+              <FOREIGNID name="TEntityTypePropertyTable" mc="Infrastructure.PropertyTableDefinition" uid="e8f30f06-d953-4192-a783-d2a57c96564c"/>
             </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
-            </LINK>
-            <COMP relation="Tag">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="2ffa2a0e-057b-47a5-be5a-9920448601af"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Actual">
-                    <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="aa01abe6-c1a6-46b2-ad5f-1d6d83bc274a"/>
-                      <ATTRIBUTES>
-                        <ATT name="Value"><![CDATA[derivedFrom]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                  <LINK relation="Definition">
-                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
